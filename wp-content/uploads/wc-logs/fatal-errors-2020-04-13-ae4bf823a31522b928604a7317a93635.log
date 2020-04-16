@@ -1,0 +1,44 @@
+2020-04-13T17:36:21+00:00 CRITICAL Uncaught Error: Call to a member function get_currency_codes() on null in /Applications/MAMP/htdocs/macparts/wp-content/themes/porto/inc/functions/layout.php:228
+Stack trace:
+#0 /Applications/MAMP/htdocs/macparts/wp-content/themes/porto/header/header_1.php(11): porto_currency_switcher()
+#1 /Applications/MAMP/htdocs/macparts/wp-includes/template.php(725): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/macparts/wp-includes/template.php(672): load_template('/Applications/M...', false)
+#3 /Applications/MAMP/htdocs/macparts/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /Applications/MAMP/htdocs/macparts/wp-content/themes/porto/header/header.php(8): get_template_part('header/header_1')
+#5 /Applications/MAMP/htdocs/macparts/wp-includes/template.php(725): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/macparts/wp-includes/template.php(672): load_template('/Applications/M...', false)
+#7 /Applications/MAMP/htdocs/macparts/wp-includes/general-template.php(168): loc in /Applications/MAMP/htdocs/macparts/wp-content/themes/porto/inc/functions/layout.php on line 228
+
+2020-04-13T17:36:22+00:00 CRITICAL Uncaught Error: Call to a member function get_currency_codes() on null in /Applications/MAMP/htdocs/macparts/wp-content/themes/porto/inc/functions/layout.php:228
+Stack trace:
+#0 /Applications/MAMP/htdocs/macparts/wp-content/themes/porto/header/header_1.php(11): porto_currency_switcher()
+#1 /Applications/MAMP/htdocs/macparts/wp-includes/template.php(725): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/macparts/wp-includes/template.php(672): load_template('/Applications/M...', false)
+#3 /Applications/MAMP/htdocs/macparts/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /Applications/MAMP/htdocs/macparts/wp-content/themes/porto/header/header.php(8): get_template_part('header/header_1')
+#5 /Applications/MAMP/htdocs/macparts/wp-includes/template.php(725): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/macparts/wp-includes/template.php(672): load_template('/Applications/M...', false)
+#7 /Applications/MAMP/htdocs/macparts/wp-includes/general-template.php(168): loc in /Applications/MAMP/htdocs/macparts/wp-content/themes/porto/inc/functions/layout.php on line 228
+
+2020-04-13T17:36:30+00:00 CRITICAL Uncaught Error: Call to a member function get_currency_codes() on null in /Applications/MAMP/htdocs/macparts/wp-content/themes/porto/inc/functions/layout.php:228
+Stack trace:
+#0 /Applications/MAMP/htdocs/macparts/wp-content/themes/porto/header/header_1.php(11): porto_currency_switcher()
+#1 /Applications/MAMP/htdocs/macparts/wp-includes/template.php(725): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/macparts/wp-includes/template.php(672): load_template('/Applications/M...', false)
+#3 /Applications/MAMP/htdocs/macparts/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /Applications/MAMP/htdocs/macparts/wp-content/themes/porto/header/header.php(8): get_template_part('header/header_1')
+#5 /Applications/MAMP/htdocs/macparts/wp-includes/template.php(725): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/macparts/wp-includes/template.php(672): load_template('/Applications/M...', false)
+#7 /Applications/MAMP/htdocs/macparts/wp-includes/general-template.php(168): loc in /Applications/MAMP/htdocs/macparts/wp-content/themes/porto/inc/functions/layout.php on line 228
+
+2020-04-13T17:40:03+00:00 CRITICAL Uncaught Error: Call to a member function get_currency_codes() on null in /Applications/MAMP/htdocs/macparts/wp-content/themes/porto/inc/functions/layout.php:228
+Stack trace:
+#0 /Applications/MAMP/htdocs/macparts/wp-content/themes/porto/header/header_1.php(11): porto_currency_switcher()
+#1 /Applications/MAMP/htdocs/macparts/wp-includes/template.php(725): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/macparts/wp-includes/template.php(672): load_template('/Applications/M...', false)
+#3 /Applications/MAMP/htdocs/macparts/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /Applications/MAMP/htdocs/macparts/wp-content/themes/porto/header/header.php(8): get_template_part('header/header_1')
+#5 /Applications/MAMP/htdocs/macparts/wp-includes/template.php(725): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/macparts/wp-includes/template.php(672): load_template('/Applications/M...', false)
+#7 /Applications/MAMP/htdocs/macparts/wp-includes/general-template.php(168): loc in /Applications/MAMP/htdocs/macparts/wp-content/themes/porto/inc/functions/layout.php op de lijn 228
+

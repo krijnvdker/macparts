@@ -90,6 +90,8 @@ if ( 'preset' == $layout ) {
 	if ( $column_width > 0 ) {
 		$replace_count = 1;
 		$content       = str_replace( array( '[porto_grid_item width="' . esc_attr( $column_width_str ) . '"', '[porto_grid_item  width="' . esc_attr( $column_width_str ) . '"' ), '[porto_grid_item width="' . esc_attr( $column_width_str ) . '" column_class="true"', $content, $replace_count );
+	} else {
+		$iso_options['masonry'] = array( 'columnWidth' => '.grid-col-sizer' );
 	}
 }
 $iso_options['animationEngine'] = 'best-available';
@@ -97,7 +99,7 @@ $iso_options['resizable']       = false;
 
 $output .= '<div id="grid-' . $rand_escaped . '" class="' . esc_attr( $el_class ) . ' wpb_content_element clearfix" data-plugin-masonry data-plugin-options=\'' . json_encode( $iso_options ) . '\'' . $extra_attrs . '>';
 $output .= do_shortcode( $content );
-if ( 'preset' == $layout ) {
+if ( 'preset' == $layout || '.grid-col-sizer' == $iso_options['masonry']['columnWidth'] ) {
 	$output .= '<div class="grid-col-sizer"></div>';
 	unset( $GLOBALS['porto_grid_layout'], $GLOBALS['porto_item_count'] );
 }

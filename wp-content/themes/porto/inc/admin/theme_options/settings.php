@@ -1105,9 +1105,9 @@ if ( ! class_exists( 'Redux_Framework_porto_settings' ) ) {
 						'notice' => false,
 					),
 					array(
-						'id'     => 'body-bg',
-						'type'   => 'background',
-						'title'  => __( 'Background', 'porto' ),
+						'id'    => 'body-bg',
+						'type'  => 'background',
+						'title' => __( 'Background', 'porto' ),
 					),
 					array(
 						'id'      => 'body-bg-gradient',
@@ -1134,9 +1134,9 @@ if ( ! class_exists( 'Redux_Framework_porto_settings' ) ) {
 						'notice' => false,
 					),
 					array(
-						'id'     => 'content-bg',
-						'type'   => 'background',
-						'title'  => __( 'Background', 'porto' ),
+						'id'    => 'content-bg',
+						'type'  => 'background',
+						'title' => __( 'Background', 'porto' ),
 					),
 					array(
 						'id'      => 'content-bg-gradient',
@@ -1163,9 +1163,9 @@ if ( ! class_exists( 'Redux_Framework_porto_settings' ) ) {
 						'notice' => false,
 					),
 					array(
-						'id'     => 'content-bottom-bg',
-						'type'   => 'background',
-						'title'  => __( 'Background', 'porto' ),
+						'id'    => 'content-bottom-bg',
+						'type'  => 'background',
+						'title' => __( 'Background', 'porto' ),
 					),
 					array(
 						'id'      => 'content-bottom-bg-gradient',
@@ -2024,9 +2024,9 @@ if ( ! class_exists( 'Redux_Framework_porto_settings' ) ) {
 						'notice' => false,
 					),
 					array(
-						'id'      => 'breadcrumbs-bg',
-						'type'    => 'background',
-						'title'   => __( 'Background', 'porto' ),
+						'id'    => 'breadcrumbs-bg',
+						'type'  => 'background',
+						'title' => __( 'Background', 'porto' ),
 					),
 					array(
 						'id'      => 'breadcrumbs-bg-gradient',
@@ -2209,9 +2209,9 @@ if ( ! class_exists( 'Redux_Framework_porto_settings' ) ) {
 						'notice' => false,
 					),
 					array(
-						'id'     => 'footer-main-bg',
-						'type'   => 'background',
-						'title'  => __( 'Background', 'porto' ),
+						'id'    => 'footer-main-bg',
+						'type'  => 'background',
+						'title' => __( 'Background', 'porto' ),
 					),
 					array(
 						'id'      => 'footer-main-bg-gradient',
@@ -2282,9 +2282,9 @@ if ( ! class_exists( 'Redux_Framework_porto_settings' ) ) {
 						'notice' => false,
 					),
 					array(
-						'id'     => 'footer-top-bg',
-						'type'   => 'background',
-						'title'  => __( 'Background', 'porto' ),
+						'id'    => 'footer-top-bg',
+						'type'  => 'background',
+						'title' => __( 'Background', 'porto' ),
 					),
 					array(
 						'id'      => 'footer-top-bg-gradient',
@@ -6238,6 +6238,15 @@ if ( ! class_exists( 'Redux_Framework_porto_settings' ) ) {
 				),
 			);
 			// Woocommerce
+			$all_roles = array();
+			if ( is_admin() ) {
+				$roles = wp_roles()->roles;
+				$roles = apply_filters( 'editable_roles', $roles );
+				foreach ( $roles as $role_name => $role_info ) {
+					$initial_assigned_roles = array( $role_name => $role_info['name'] );
+					$all_roles              = array_merge( $all_roles, $initial_assigned_roles );
+				}
+			}
 			$this->sections[] = $this->add_customizer_field(
 				array(
 					'icon'       => 'el-icon-shopping-cart',
@@ -6311,6 +6320,46 @@ if ( ! class_exists( 'Redux_Framework_porto_settings' ) ) {
 							'default'  => true,
 							'on'       => __( 'Yes', 'porto' ),
 							'off'      => __( 'No', 'porto' ),
+						),
+						array(
+							'id'        => 'product-show-price-role',
+							'type'      => 'button_set',
+							'multi'     => true,
+							'title'     => __( 'Select roles to see price', 'porto' ),
+							'default'   => array(),
+							'options'   => $all_roles,
+							'transport' => 'refresh',
+						),
+						array(
+							'id'        => 'woo-pre-order',
+							'type'      => 'switch',
+							'title'     => __( 'Enable Pre-Order', 'porto' ),
+							'transport' => 'refresh',
+						),
+						array(
+							'id'          => 'woo-pre-order-label',
+							'type'        => 'text',
+							'title'       => __( 'Pre-order Label', 'porto' ),
+							'description' => __( 'This text will be used on \'Add to Cart\' button.', 'porto' ),
+							'required'    => array( 'woo-pre-order', 'equals', true ),
+							'transport'   => 'refresh',
+						),
+						array(
+							'id'          => 'woo-pre-order-msg-date',
+							'type'        => 'text',
+							'title'       => __( 'Availability Date Text', 'porto' ),
+							/* translators: available date */
+							'description' => __( 'ex: Available date: %s (%s will be replaced with available date.)', 'porto' ),
+							'required'    => array( 'woo-pre-order', 'equals', true ),
+							'transport'   => 'refresh',
+						),
+						array(
+							'id'          => 'woo-pre-order-msg-nodate',
+							'type'        => 'text',
+							'title'       => __( 'No Date Message', 'porto' ),
+							'placeholder' => __( 'Available soon', 'porto' ),
+							'required'    => array( 'woo-pre-order', 'equals', true ),
+							'transport'   => 'refresh',
 						),
 					),
 				),

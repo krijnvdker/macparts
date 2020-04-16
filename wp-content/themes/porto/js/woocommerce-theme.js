@@ -2690,6 +2690,35 @@
 				}
 			});
 		}
+
+		// pre-order
+		if (js_porto_vars.pre_order) {
+			var porto_pre_order = {
+				init: function() {
+					this.$add_to_cart_btn  = $('.product-summary-wrap .single_add_to_cart_button');
+					this.add_to_cart_label = this.$add_to_cart_btn.html();
+					$('.product-summary-wrap form.variations_form').on('show_variation', function(e, v, p) {
+						if (v.porto_pre_order) {
+							porto_pre_order.$add_to_cart_btn.html(v.porto_pre_order_label);
+							if (v.porto_pre_order_date) {
+								$(this).find('.woocommerce-variation-description').append(v.porto_pre_order_date);
+							}
+						} else {
+							porto_pre_order.$add_to_cart_btn.html(porto_pre_order.add_to_cart_label);
+						}
+					}).on('hide_variation', function() {
+						porto_pre_order.$add_to_cart_btn.html(porto_pre_order.add_to_cart_label);
+					});
+				}
+			};
+			if ($('div.product.skeleton-loading').length) {
+				$('div.product.skeleton-loading').on('skeleton-loaded', function() {
+					porto_pre_order.init();
+				});
+			} else {
+				porto_pre_order.init();
+			}
+		}
 	})( window.theme, jQuery );
 
 })();

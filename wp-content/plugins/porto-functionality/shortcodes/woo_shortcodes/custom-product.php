@@ -257,6 +257,24 @@ class PortoCustomProduct {
 			return null;
 		}
 
+		global $porto_settings;
+		if ( isset( $porto_settings['product-show-price-role'] ) && ! empty( $porto_settings['product-show-price-role'] ) ) {
+			$hide_price = false;
+			if ( ! is_user_logged_in() ) {
+				$hide_price = true;
+			} else {
+				foreach ( wp_get_current_user()->roles as $role => $val ) {
+					if ( ! in_array( $val, $porto_settings['product-show-price-role'] ) ) {
+						$hide_price = true;
+						break;
+					}
+				}
+			}
+			if ( $hide_price ) {
+				return null;
+			}
+		}
+
 		ob_start();
 		echo '<div class="product-summary-wrap">';
 		woocommerce_template_single_add_to_cart();

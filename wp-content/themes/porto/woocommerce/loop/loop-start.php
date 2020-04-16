@@ -224,6 +224,11 @@ if ( $view_mode ) {
 
 if ( ! $view_mode ) {
 	$classes[] = 'grid';
+	$view_mode = 'grid';
+}
+
+if ( 'grid' == $view_mode  && (int) $cols >= 7 ) {
+	$classes[] = 'gap-narrow';
 }
 
 if ( ! isset( $porto_woocommerce_loop['view'] ) || 'creative' != $porto_woocommerce_loop['view'] ) {
@@ -239,7 +244,14 @@ if ( ! isset( $porto_woocommerce_loop['view'] ) || 'creative' != $porto_woocomme
 	$classes[] = 'pwidth-xs-' . $item_width_xs;
 	$classes[] = 'pwidth-ls-' . $item_width_ls;
 } elseif ( ! isset( $porto_woocommerce_loop['creative_grid'] ) ) {
-	$attrs = ' data-plugin-masonry data-plugin-options="' . esc_attr( json_encode( array( 'itemSelector' => '.product-col', 'masonry' => array( 'columnWidth' => '.grid-col-sizer' ) ) ) ) . '"';
+	$attrs = ' data-plugin-masonry data-plugin-options="' . esc_attr(
+		json_encode(
+			array(
+				'itemSelector' => '.product-col',
+				'masonry'      => array( 'columnWidth' => '.grid-col-sizer' ),
+			)
+		)
+	) . '"';
 }
 
 $options                = array();
@@ -307,14 +319,14 @@ if ( 'list' == $view_mode || ( isset( $porto_settings['product-desc'] ) && $port
 
 if ( ! empty( $porto_settings['show-skeleton-screen'] ) && in_array( 'shop', $porto_settings['show-skeleton-screen'] ) && ( function_exists( 'wc_get_loop_prop' ) && ! wc_get_loop_prop( 'is_paginated' ) ) || isset( $porto_woocommerce_loop['view'] ) || ! isset( $_COOKIE['gridcookie'] ) || 'list' != $_COOKIE['gridcookie'] ) {
 	if ( isset( $woocommerce_loop['addlinks_pos'] ) && 'quantity' == $woocommerce_loop['addlinks_pos'] ) {
-		$attrs .= 'data-product_layout="product-wq_onimage"';
+		$attrs .= ' data-product_layout="product-wq_onimage"';
 	} elseif ( isset( $woocommerce_loop['addlinks_pos'] ) ) {
 		if ( 'outimage_aq_onimage2' == $woocommerce_loop['addlinks_pos'] ) {
-			$attrs .= 'data-product_layout="product-outimage_aq_onimage with-padding"';
+			$attrs .= ' data-product_layout="product-outimage_aq_onimage with-padding"';
 		} elseif ( 'onhover' == $woocommerce_loop['addlinks_pos'] ) {
-			$attrs .= 'data-product_layout="product-default show-links-hover"';
+			$attrs .= ' data-product_layout="product-default show-links-hover"';
 		} else {
-			$attrs .= 'data-product_layout="product-' . esc_attr( $woocommerce_loop['addlinks_pos'] ) . '"';
+			$attrs .= ' data-product_layout="product-' . esc_attr( $woocommerce_loop['addlinks_pos'] ) . '"';
 		}
 	}
 }

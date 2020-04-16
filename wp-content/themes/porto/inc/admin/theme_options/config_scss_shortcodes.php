@@ -1,7 +1,10 @@
 <?php
-	global $porto_settings_optimize;
+	global $porto_settings, $porto_settings_optimize;
 	$unused_shortcode_list = ! isset( $porto_settings_optimize['shortcodes_to_remove'] ) || ! $porto_settings_optimize['shortcodes_to_remove'] ? array() : $porto_settings_optimize['shortcodes_to_remove'];
 ?>
+$screen-lg: <?php echo (int) ( $porto_settings['container-width'] + $porto_settings['grid-gutter-width'] ); ?> !default;
+$grid-gutter-space: <?php echo (int) $porto_settings['grid-gutter-width']; ?> !default;
+
 @import "theme/shortcodes/common";
 
 <?php if ( defined( 'WPB_VC_VERSION' ) ) : ?>
@@ -9,7 +12,7 @@
 	@import "theme/shortcodes/tabs";
 	<?php endif; ?>
 <?php endif; ?>
-<?php if ( class_exists( 'Woocommerce' ) || ( defined( 'WPB_VC_VERSION' ) && ( ! in_array( 'vc_accordion', $unused_shortcode_list ) || ! in_array( 'vc_accordion_tab', $unused_shortcode_list ) ) ) ) : ?>
+<?php if ( class_exists( 'Woocommerce' ) || ( defined( 'WPB_VC_VERSION' ) && ( ! in_array( 'vc_accordion', $unused_shortcode_list ) || ! in_array( 'vc_accordion_tab', $unused_shortcode_list ) ) ) || ( ! defined( 'WPB_VC_VERSION' ) && ! defined( 'ELEMENTOR_VERSION' ) ) ) : ?>
 @import "theme/shortcodes/accordion";
 <?php endif; ?>
 

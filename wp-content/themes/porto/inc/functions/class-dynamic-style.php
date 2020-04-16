@@ -291,10 +291,17 @@ if ( ! class_exists( 'Porto_Dynamic_Style' ) ) :
 		}
 
 		protected function minify_css( $css ) {
+			if ( ! $css ) {
+				return '';
+			}
 			$output = preg_replace( '#/\*.*?\*/#s', '', $css );
 			$output = preg_replace( '/\s*([{}|:;,])\s+/', '$1', $output );
 			$output = preg_replace( '/\s\s+(.*)/', '$1', $output );
-			return $output;
+			$output = preg_replace( '/;(?=\s*})/', '', $output );
+			$output = preg_replace( '/ (,|;|\{|})/', '$1', $output );
+			$output = preg_replace( '/(:| )0\.([0-9]+)(%|em|ex|px|in|cm|mm|pt|pc)/i', '${1}.${2}${3}', $output );
+			$output = preg_replace( '/(:| )(\.?)0(%|em|ex|px|in|cm|mm|pt|pc)/i', '${1}0', $output );
+			return trim( $output );
 		}
 
 	}

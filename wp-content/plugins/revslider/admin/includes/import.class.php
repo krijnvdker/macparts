@@ -92,10 +92,7 @@ class RevSliderSliderImport extends RevSliderSlider {
 			//do the update routines
 			$slider = new RevSliderSliderImport();
 			$slider->init_by_id($this->slider_id);
-			$upd = new RevSliderPluginUpdate();
-			
-			$upd->upgrade_slider_to_latest($slider);
-			//RevSliderPluginUpdate::upgrade_slider_to_latest($slider);
+			RevSliderPluginUpdate::upgrade_slider_to_latest($slider);
 			
 			//reinit because we just updated data which is outside of the $slider object
 			$slider = new RevSliderSliderImport();

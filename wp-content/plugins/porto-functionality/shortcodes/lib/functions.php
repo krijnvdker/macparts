@@ -1185,36 +1185,6 @@ function porto_getCategoryChildsFull( $parent_id, $pos, $array, $level, &$dropdo
 	}
 }
 
-// add Porto Icon font to Elementor Icons
-if ( defined( 'ELEMENTOR_VERSION' ) ) {
-	add_filter( 'elementor/icons_manager/additional_tabs', 'porto_elementor_add_porto_icons', 10, 1 );
-
-	function porto_elementor_add_porto_icons( $icons ) {
-		$icons['porto-icons'] = array(
-			'name' => 'porto-icons',
-			'label' => __( 'Porto Icons', 'porto-functionality' ),
-			'prefix' => 'porto-icon-',
-			'displayPrefix' => ' ',
-			'labelIcon' => 'porto-icon-country',
-			'fetchJson' => PORTO_SHORTCODES_URL . 'assets/js/porto-icons.js',
-			'ver' => PORTO_SHORTCODES_VERSION,
-			'native' => false,
-		);
-
-		$icons['simple-line-icons'] = array(
-			'name' => 'simple-line-icons',
-			'label' => __( 'Simple Line Icons', 'porto-functionality' ),
-			'prefix' => 'Simple-Line-Icons-',
-			'displayPrefix' => ' ',
-			'labelIcon' => 'Simple-Line-Icons-flag',
-			'fetchJson' => PORTO_SHORTCODES_URL . 'assets/js/simple-line-icons.js',
-			'ver' => PORTO_SHORTCODES_VERSION,
-			'native' => false,
-		);
-		return $icons;
-	}
-}
-
 // Add simple line icon font
 if ( ! function_exists( 'vc_iconpicker_type_simpleline' ) ) {
 	add_filter( 'vc_iconpicker-type-simpleline', 'vc_iconpicker_type_simpleline' );
@@ -4876,10 +4846,14 @@ if ( ! function_exists( 'porto_creative_masonry_layout' ) ) :
 endif;
 
 if ( ! function_exists( 'porto_creative_grid_style' ) ) :
-	function porto_creative_grid_style( $layout, $grid_height, $id, $spacing = false, $include_style = true, $unit = 'px', $item_selector = '.product-col', $grid_layout = 1 ) {
+	function porto_creative_grid_style( $layout, $grid_height, $selector, $spacing = false, $include_style = true, $unit = 'px', $item_selector = '.product-col', $grid_layout = 1 ) {
 		if ( ! $layout ) {
 			return false;
 		}
+		if ( 0 !== strpos( $selector, '#' ) && 0 !== strpos( $selector, '.' ) ) {
+			$selector = '#' . $selector;
+		}
+
 		global $porto_settings;
 		$widths     = array();
 		$heights    = array();
@@ -4920,9 +4894,9 @@ if ( ! function_exists( 'porto_creative_grid_style' ) ) :
 				$width_number = (int) $width_arr[0];
 			}
 			$max_width = floor( $width_number * 1000000 ) / 10000;
-			echo '#' . $id . ' .grid-col-' . esc_html( $width ) . '{ flex: 0 0 ' . $max_width . '%; width: ' . $max_width . '%; }';
+			echo esc_html( $selector ) . ' .grid-col-' . esc_html( $width ) . '{ flex: 0 0 ' . $max_width . '%; width: ' . $max_width . '%; }';
 		}
-		echo '#' . $id . ' .grid-col-sizer { flex: 0 0 ' . ( floor( 1000000 / $max_col ) / 10000 ) . '%; width: ' . ( floor( 1000000 / $max_col ) / 10000 ) . '% }';
+		echo esc_html( $selector ) . ' .grid-col-sizer { flex: 0 0 ' . ( floor( 1000000 / $max_col ) / 10000 ) . '%; width: ' . ( floor( 1000000 / $max_col ) / 10000 ) . '% }';
 		foreach ( $heights as $height ) {
 			$height_arr = explode( '-', $height );
 			if ( count( $height_arr ) > 1 ) {
@@ -4930,7 +4904,7 @@ if ( ! function_exists( 'porto_creative_grid_style' ) ) :
 			} else {
 				$height_number = (int) $grid_height;
 			}
-			echo '#' . $id . ' .grid-height-' . $height . '{ height: ' . round( $height_number ) . esc_html( $unit ) . ' }';
+			echo esc_html( $selector ) . ' .grid-height-' . $height . '{ height: ' . round( $height_number ) . esc_html( $unit ) . ' }';
 		}
 		if ( $has_lg_grid ) {
 			$widths_lg = array();
@@ -4948,11 +4922,11 @@ if ( ! function_exists( 'porto_creative_grid_style' ) ) :
 						$width_number = (int) $width_arr[0];
 					}
 					$max_width = floor( $width_number * 1000000 ) / 10000;
-					echo '#' . $id . ' .grid-col-lg-' . esc_html( $grid['width_lg'] ) . '{ flex: 0 0 ' . $max_width . '%; width: ' . $max_width . '%; }';
+					echo esc_html( $selector ) . ' .grid-col-lg-' . esc_html( $grid['width_lg'] ) . '{ flex: 0 0 ' . $max_width . '%; width: ' . $max_width . '%; }';
 					$widths_lg[] = $grid['width_lg'];
 				}
 			}
-			echo '#' . $id . ' .grid-col-sizer { flex: 0 0 ' . ( floor( 1000000 / $max_col ) / 10000 ) . '%; width: ' . ( floor( 1000000 / $max_col ) / 10000 ) . '% }';
+			echo esc_html( $selector ) . ' .grid-col-sizer { flex: 0 0 ' . ( floor( 1000000 / $max_col ) / 10000 ) . '%; width: ' . ( floor( 1000000 / $max_col ) / 10000 ) . '% }';
 			echo '}';
 		}
 		echo '@media (max-width: 767px) {';
@@ -4969,9 +4943,9 @@ if ( ! function_exists( 'porto_creative_grid_style' ) ) :
 				$width_number = (int) $width_arr[0];
 			}
 			$max_width = floor( $width_number * 1000000 ) / 10000;
-			echo '#' . $id . ' .grid-col-md-' . esc_html( $width[1] ) . '{ flex: 0 0 ' . $max_width . '%; width: ' . $max_width . '%; }';
+			echo esc_html( $selector ) . ' .grid-col-md-' . esc_html( $width[1] ) . '{ flex: 0 0 ' . $max_width . '%; width: ' . $max_width . '%; }';
 		}
-		echo '#' . $id . ' .grid-col-sizer { flex: 0 0 ' . ( floor( 1000000 / $max_col ) / 10000 ) . '%; width: ' . ( floor( 1000000 / $max_col ) / 10000 ) . '% }';
+		echo esc_html( $selector ) . ' .grid-col-sizer { flex: 0 0 ' . ( floor( 1000000 / $max_col ) / 10000 ) . '%; width: ' . ( floor( 1000000 / $max_col ) / 10000 ) . '% }';
 		foreach ( $heights as $index => $height ) {
 			if ( isset( $heights_md[ $index ] ) ) {
 				$height_arr = explode( '-', $heights_md[ $index ] );
@@ -4980,7 +4954,7 @@ if ( ! function_exists( 'porto_creative_grid_style' ) ) :
 				} else {
 					$height_number = (int) $height_arr[0] * (int) $grid_height;
 				}
-				echo '#' . $id . ' .grid-height-' . $height . '{ height: ' . $height_number . esc_html( $unit ) . '; }';
+				echo esc_html( $selector ) . ' .grid-height-' . $height . '{ height: ' . $height_number . esc_html( $unit ) . '; }';
 			} else {
 				$height_arr = explode( '-', $height );
 				if ( count( $height_arr ) > 1 ) {
@@ -4988,21 +4962,21 @@ if ( ! function_exists( 'porto_creative_grid_style' ) ) :
 				} else {
 					$height_number = (int) $grid_height;
 				}
-				echo '#' . $id . ' .grid-height-' . $height . '{ height: ' . round( $height_number / 1.5 ) . esc_html( $unit ) . '; }';
+				echo esc_html( $selector ) . ' .grid-height-' . $height . '{ height: ' . round( $height_number / 1.5 ) . esc_html( $unit ) . '; }';
 			}
 		}
 		echo '}';
 		if ( 9 === (int) $grid_layout ) {
 			echo '@media (min-width: 768px) and (max-width: 991px) {';
-				echo '#' . $id . ' .product-col:last-child { display: none; }';
+				echo esc_html( $selector ) . ' .product-col:last-child { display: none; }';
 			echo '}';
 		}
 		echo '@media (max-width: 480px) {';
-			echo '#' . $id . ' ' . $item_selector . ' { flex: 0 0 100%; width: 100%; }';
+			echo esc_html( $selector ) . ' ' . $item_selector . ' { flex: 0 0 100%; width: 100%; }';
 		echo '}';
 		if ( false !== $spacing && '' !== $spacing ) {
-			echo '#' . $id . ' .grid-creative { margin-left: -' . ( (int) $spacing / 2 ) . 'px; margin-right: -' . ( (int) $spacing / 2 ) . 'px; }';
-			echo '#' . $id . ' ' . $item_selector . ' { padding: 0 ' . ( (int) $spacing / 2 ) . 'px ' . ( (int) $spacing ) . 'px; }';
+			echo esc_html( $selector ) . ' .grid-creative { margin-left: -' . ( (int) $spacing / 2 ) . 'px; margin-right: -' . ( (int) $spacing / 2 ) . 'px; }';
+			echo esc_html( $selector ) . ' ' . $item_selector . ' { padding: 0 ' . ( (int) $spacing / 2 ) . 'px ' . ( (int) $spacing ) . 'px; }';
 		}
 		if ( $include_style ) {
 			echo '</style>';

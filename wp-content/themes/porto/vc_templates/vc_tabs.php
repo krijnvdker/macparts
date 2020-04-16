@@ -95,7 +95,7 @@ $tabs_nav  = '';
 if ( vc_is_inline() ) {
 	$ul_class .= ' wpb_tabs_nav ui-tabs-nav vc_clearfix';
 }
-$tabs_nav .= '<ul class="nav nav-tabs ' . $ul_class . ( 'tabs-simple' == $type ? ' featured-boxes ' . esc_attr( $icon_style ) : '' ) . '">';
+$tabs_nav .= '<ul class="nav nav-tabs' . $ul_class . ( 'tabs-simple' == $type ? ' featured-boxes ' . esc_attr( $icon_style ) : '' ) . '">';
 foreach ( $tabs as $tab ) {
 	preg_match( '/ title="([^\"]+)\"/i', $tab[0], $title_matches, PREG_OFFSET_CAPTURE );
 	preg_match( '/ tab_id="([^\"]+)\"/i', $tab[0], $tab_id_matches, PREG_OFFSET_CAPTURE );

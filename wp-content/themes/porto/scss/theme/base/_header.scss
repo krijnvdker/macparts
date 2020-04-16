@@ -1117,6 +1117,7 @@
         max-height: 300px;
         overflow-y: auto;
         overflow-x: hidden;
+        margin: 0;
 
         &.scroll-scrolly_visible {
             li {
@@ -1600,6 +1601,7 @@ html:not(.touch):not(.no-touch) #mini-cart:hover .cart-popup {
             .overlay-logo {
                 opacity: 0;
                 top: -90px;
+                visibility: hidden
             }
             .logo {
                 opacity: 1;

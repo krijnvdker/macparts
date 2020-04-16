@@ -27,9 +27,9 @@ if ( porto_is_ajax() ) {
 	<div class="blocks-section">
 		<div class="demo-filter">
 			<?php
-				if ( ! class_exists( 'Porto_Theme_Setup_Wizard' ) ) {
-					require_once PORTO_ADMIN . '/setup_wizard/setup_wizard.php';
-				}
+			if ( ! class_exists( 'Porto_Theme_Setup_Wizard' ) ) {
+				require_once PORTO_ADMIN . '/setup_wizard/setup_wizard.php';
+			}
 				$instance = Porto_Theme_Setup_Wizard::get_instance();
 				$filters1 = $instance->porto_demo_filters();
 				$filters2 = $instance->porto_demo_types();
@@ -43,7 +43,10 @@ if ( porto_is_ajax() ) {
 			<select class="filter2">
 				<option value=""><?php esc_html_e( 'Show All', 'porto' ); ?></option>
 				<?php foreach ( $filters2 as $name => $value ) : ?>
-					<?php if ( ! in_array( $name, array( 'classic', 'shop', 'blog' ) ) ) : ?>
+					<?php
+					if ( ( ! empty( $value['plugins'] ) && 'v' == $page_type && in_array( 'js_composer', $value['plugins'] ) ) || ( 'e' == $page_type && false !== strpos( $value['filter'], 'elementor' ) )
+							|| ( 'g' == $page_type && false !== strpos( $value['filter'], 'gutenberg' ) ) ) :
+						?>
 						<option value="<?php echo esc_attr( $name ); ?>" data-filter="<?php echo esc_attr( $value['filter'] ); ?>"><?php echo esc_html( $value['alt'] ); ?></option>
 					<?php endif; ?>
 				<?php endforeach; ?>
@@ -53,11 +56,11 @@ if ( porto_is_ajax() ) {
 		</div>
 		<div class="blocks-list">
 		<?php foreach ( $blocks as $block ) : ?>
-			<div class="block" data-template_name="<?php echo esc_attr( vc_slugify( $block['t'] ) ); ?>">
+			<div class="block" data-template_name="<?php echo function_exists( 'vc_slugify' ) ? esc_attr( vc_slugify( $block['t'] ) ) : sanitize_title( $block['t'] ); ?>">
 				<img <?php echo ! $is_ajax ? 'data-original' : 'src'; ?>="<?php echo esc_url( isset( $block['img'] ) ? $block['img'] : '//sw-themes.com/porto_dummy/wp-content/uploads/studio/' . ( (int) $block['ID'] ) . '.jpg' ); ?>" alt="<?php echo esc_attr( $block['t'] ); ?>"<?php echo isset( $block['w'] ) && $block['w'] ? ' width="' . intval( $block['w'] ) . '"' : '', isset( $block['h'] ) && $block['h'] ? ' height="' . intval( $block['h'] ) . '"' : ''; ?>>
 				<div class="block-actions">
 					<a href="<?php echo esc_url( $block['u'] ); ?>" class="btn btn-dark" target="_blank"><i class="fas fa-search-plus"></i><?php esc_html_e( 'Preview', 'porto' ); ?></a>
-					<?php if ( ( function_exists( 'Porto') && Porto()->is_registered() || get_option( 'porto_registered' ) ) ) : ?>
+					<?php if ( ( function_exists( 'Porto' ) && Porto()->is_registered() || get_option( 'porto_registered' ) ) ) : ?>
 						<button class="btn btn-primary import" data-id="<?php echo esc_attr( $block['ID'] ); ?>"><i class="fas fa-download"></i><?php esc_html_e( 'Import', 'porto' ); ?></button>
 					<?php endif; ?>
 				</div>

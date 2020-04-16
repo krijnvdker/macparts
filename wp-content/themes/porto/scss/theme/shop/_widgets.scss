@@ -353,9 +353,9 @@
                 a {
                     min-width: 32px;
                     text-align: center;
-                    margin: side-values(.3846em .3846em .3846em 0);
-                    padding: .3846em;
-                    line-height: 1.2;
+                    margin: side-values(3px 6px 3px 0);
+                    padding: 4px 8px;
+                    line-height: 16px;
                 }
                 &.chosen a,
                 a:hover {
@@ -367,6 +367,9 @@
 }
 
 // Woocommerce products widget
+.widget .product_list_widget li {
+    padding: .5rem 0;
+}
 ul.product_list_widget {
     list-style: none outside;
     padding: 0;

@@ -1,6 +1,15 @@
 <?php
 
 // Porto Product Categories
+if ( function_exists( 'register_block_type' ) ) {
+	register_block_type(
+		'porto/porto-product-categories',
+		array(
+			'editor_script'   => 'porto_blocks',
+			'render_callback' => 'porto_shortcode_product_categories',
+		)
+	);
+}
 add_shortcode( 'porto_product_categories', 'porto_shortcode_product_categories' );
 add_action( 'vc_after_init', 'porto_load_product_categories_shortcode' );
 

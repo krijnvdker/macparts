@@ -9,8 +9,8 @@ if ( $item_cats ) {
 	}
 }
 
-$sub_title      = porto_portfolio_sub_title( $post );
-$attachment     = porto_get_attachment( get_post_thumbnail_id(), 'full' );
+$sub_title  = porto_portfolio_sub_title( $post );
+$attachment = porto_get_attachment( get_post_thumbnail_id(), 'full' );
 
 if ( has_post_thumbnail() ) :
 

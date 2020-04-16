@@ -159,9 +159,7 @@ if ( 'products-slider' == $view ) {
 $porto_woocommerce_loop['category-view'] = 'category-pos-' . explode( '-', $text_position )[0] . ( isset( explode( '-', $text_position )[1] ) ? ' category-text-' . explode( '-', $text_position )[1] : '' ) . ( 'light' != $text_color ? ' category-color-' . $text_color : '' );
 
 if ( 'creative' == $view ) {
-	$porto_woocommerce_loop['grid_height']  = $grid_height;
-	$porto_woocommerce_loop['grid_layout']  = porto_creative_grid_layout( $grid_layout );
-	$porto_woocommerce_loop['grid_spacing'] = $spacing;
+	$porto_woocommerce_loop['grid_layout'] = porto_creative_grid_layout( $grid_layout );
 
 	if ( '4' == $grid_layout ) {
 		$porto_woocommerce_loop['creative_grid'] = 'true';
@@ -169,7 +167,9 @@ if ( 'creative' == $view ) {
 		wp_enqueue_script( 'isotope' );
 	}
 
-	porto_creative_grid_style( $porto_woocommerce_loop['grid_layout'], $grid_height, $wrapper_id, $spacing );
+	$grid_height_number = trim( preg_replace( '/[^0-9]/', '', $grid_height ) );
+	$unit               = trim( str_replace( $grid_height_number, '', $grid_height ) );
+	porto_creative_grid_style( $porto_woocommerce_loop['grid_layout'], $grid_height_number, $wrapper_id, $spacing, true, $unit );
 }
 
 if ( '0' == $overlay_bg_opacity || ( '15' != $overlay_bg_opacity && $overlay_bg_opacity ) ) {

@@ -7,7 +7,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 if ( is_admin() ) {
 	add_action( 'admin_notices', 'porto_theme_options_notices' );
 	add_action( 'redux/options/porto_settings/saved', 'porto_save_theme_settings', 10, 2 );
-	add_action( 'redux/options/porto_settings/saved', 'porto_update_theme_options_status', 11, 2 );
+	add_action( 'redux/options/porto_settings/saved', 'porto_update_theme_options_status', 12, 2 );
 	add_action( 'redux/options/porto_settings/import', 'porto_save_theme_settings', 10, 2 );
 	add_action( 'redux/options/porto_settings/reset', 'porto_save_theme_settings' );
 	add_action( 'redux/options/porto_settings/section/reset', 'porto_save_theme_settings' );

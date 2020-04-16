@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: porto\n"
-"POT-Creation-Date: 2020-02-20 18:09+0900\n"
-"PO-Revision-Date: 2020-02-20 18:09+0900\n"
+"POT-Creation-Date: 2020-03-30 18:43+0800\n"
+"PO-Revision-Date: 2020-03-30 18:43+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_GB\n"
@@ -38,11 +38,11 @@ msgid "Apologies, but no results were found for the requested archive."
 msgstr ""
 
 #: archive-faq.php:92 archive-member.php:94 archive-portfolio.php:107
-#: inc/functions/layout.php:2529 inc/functions/layout.php:2536
-#: inc/functions/layout.php:2601 inc/functions/layout.php:2608
-#: inc/functions/layout.php:2668 inc/functions/layout.php:2675
-#: inc/functions/layout.php:2734 inc/functions/layout.php:2741
-#: inc/functions/layout.php:2806 inc/functions/layout.php:2813
+#: inc/functions/layout.php:2530 inc/functions/layout.php:2537
+#: inc/functions/layout.php:2602 inc/functions/layout.php:2609
+#: inc/functions/layout.php:2669 inc/functions/layout.php:2676
+#: inc/functions/layout.php:2735 inc/functions/layout.php:2742
+#: inc/functions/layout.php:2807 inc/functions/layout.php:2814
 #: inc/lib/porto-studio/blocks.tpl.php:44 taxonomy-faq_cat.php:70
 #: taxonomy-portfolio_cat.php:99
 msgid "Show All"
@@ -119,21 +119,21 @@ msgstr ""
 
 #: content-archive-member.php:118 content-member-item.php:102
 #: content-member.php:42 inc/admin/theme_options/settings.php:3164
-#: inc/functions/layout.php:2039 share.php:55
+#: inc/functions/layout.php:2040 share.php:55
 #: woocommerce/myaccount/login-social.php:31
 msgid "Facebook"
 msgstr ""
 
 #: content-archive-member.php:122 content-member-item.php:105
 #: content-member.php:45 inc/admin/theme_options/settings.php:3170
-#: inc/functions/layout.php:2045 share.php:61
+#: inc/functions/layout.php:2046 share.php:61
 #: woocommerce/myaccount/login-social.php:45
 msgid "Twitter"
 msgstr ""
 
 #: content-archive-member.php:126 content-member-item.php:108
 #: content-member.php:48 inc/admin/theme_options/settings.php:3206
-#: inc/functions/layout.php:2081 share.php:67
+#: inc/functions/layout.php:2082 share.php:67
 msgid "LinkedIn"
 msgstr ""
 
@@ -144,7 +144,7 @@ msgstr ""
 
 #: content-archive-member.php:134 content-member-item.php:114
 #: content-member.php:54 inc/admin/theme_options/settings.php:3182
-#: inc/functions/layout.php:2057 share.php:79
+#: inc/functions/layout.php:2058 share.php:79
 msgid "Pinterest"
 msgstr ""
 
@@ -156,43 +156,43 @@ msgstr ""
 
 #: content-archive-member.php:142 content-member-item.php:120
 #: content-member.php:60 inc/admin/theme_options/settings.php:3218
-#: inc/functions/layout.php:2093 share.php:91
+#: inc/functions/layout.php:2094 share.php:91
 msgid "VK"
 msgstr ""
 
 #: content-archive-member.php:146 content-member-item.php:123
 #: content-member.php:63 inc/admin/theme_options/settings.php:3224
-#: inc/functions/layout.php:2099 share.php:97
+#: inc/functions/layout.php:2100 share.php:97
 msgid "Xing"
 msgstr ""
 
 #: content-archive-member.php:150 content-member-item.php:126
 #: content-member.php:66 inc/admin/theme_options/settings.php:3230
-#: inc/functions/layout.php:2105 share.php:103
+#: inc/functions/layout.php:2106 share.php:103
 msgid "Tumblr"
 msgstr ""
 
 #: content-archive-member.php:154 content-member-item.php:129
 #: content-member.php:69 inc/admin/theme_options/settings.php:3236
-#: inc/functions/layout.php:2111 share.php:109
+#: inc/functions/layout.php:2112 share.php:109
 msgid "Reddit"
 msgstr ""
 
 #: content-archive-member.php:158 content-member-item.php:132
 #: content-member.php:72 inc/admin/theme_options/settings.php:3242
-#: inc/functions/layout.php:2117
+#: inc/functions/layout.php:2118
 msgid "Vimeo"
 msgstr ""
 
 #: content-archive-member.php:162 content-member-item.php:135
 #: content-member.php:75 inc/admin/theme_options/settings.php:3194
-#: inc/functions/layout.php:2069
+#: inc/functions/layout.php:2070
 msgid "Instagram"
 msgstr ""
 
 #: content-archive-member.php:166 content-member-item.php:138
 #: content-member.php:78 inc/admin/theme_options/settings.php:3266
-#: inc/functions/layout.php:2141 share.php:115
+#: inc/functions/layout.php:2142 share.php:115
 msgid "WhatsApp"
 msgstr ""
 
@@ -355,7 +355,7 @@ msgstr ""
 #: content-portfolio-full.php:38 content-portfolio-gallery.php:38
 #: content-portfolio-large.php:28 content-portfolio-masonry.php:29
 #: content-portfolio-medias.php:28 content-portfolio-medium.php:32
-#: functions.php:760 woocommerce/myaccount/orders.php:110
+#: functions.php:810 woocommerce/myaccount/orders.php:110
 msgid "Previous"
 msgstr ""
 
@@ -364,7 +364,7 @@ msgstr ""
 #: content-portfolio-full.php:39 content-portfolio-gallery.php:39
 #: content-portfolio-large.php:29 content-portfolio-masonry.php:30
 #: content-portfolio-medias.php:29 content-portfolio-medium.php:33
-#: functions.php:761 woocommerce/myaccount/orders.php:115
+#: functions.php:811 woocommerce/myaccount/orders.php:115
 msgid "Next"
 msgstr ""
 
@@ -442,7 +442,7 @@ msgstr ""
 #: content-post-item.php:263 content-post-item.php:343
 #: content-post-large-alt.php:49 content-post-large.php:50
 #: content-post-medium.php:83 content-post-woocommerce.php:73
-#: inc/functions/woocommerce.php:1147
+#: inc/functions/woocommerce.php:1172
 msgid "By"
 msgstr ""
 
@@ -455,108 +455,116 @@ msgstr ""
 msgid "by"
 msgstr ""
 
-#: functions.php:130 inc/admin/customizer/header-builder.php:39
+#: functions.php:131 inc/admin/customizer/header-builder.php:39
 #: inc/admin/theme_options/settings.php:1661
 msgid "Main Menu"
 msgstr ""
 
-#: functions.php:131 inc/admin/customizer/header-builder.php:41
+#: functions.php:132 inc/admin/customizer/header-builder.php:41
 msgid "Secondary Menu"
 msgstr ""
 
-#: functions.php:132
+#: functions.php:133
 msgid "Sidebar Menu"
 msgstr ""
 
-#: functions.php:133
+#: functions.php:134
 msgid "Top Navigation"
 msgstr ""
 
-#: functions.php:134
+#: functions.php:135
 msgid "View Switcher"
 msgstr ""
 
-#: functions.php:135 inc/admin/customizer/header-builder.php:47
+#: functions.php:136 inc/admin/customizer/header-builder.php:47
 msgid "Currency Switcher"
 msgstr ""
 
-#: functions.php:173 inc/admin/theme_options/settings.php:4728
+#: functions.php:188 inc/admin/theme_options/settings.php:4728
 #: inc/functions/shortcodes.php:3044 inc/functions/shortcodes.php:3099
 msgid "Primary"
 msgstr ""
 
-#: functions.php:178 inc/admin/theme_options/settings.php:4729
+#: functions.php:193 inc/admin/theme_options/settings.php:4729
 #: inc/functions/shortcodes.php:3045 inc/functions/shortcodes.php:3100
 msgid "Secondary"
 msgstr ""
 
-#: functions.php:183 inc/admin/theme_options/settings.php:4730
+#: functions.php:198 inc/admin/theme_options/settings.php:4730
 #: inc/functions/shortcodes.php:3046 inc/functions/shortcodes.php:3101
 msgid "Tertiary"
 msgstr ""
 
-#: functions.php:188 inc/admin/theme_options/settings.php:4731
+#: functions.php:203 inc/admin/theme_options/settings.php:4731
 #: inc/functions/shortcodes.php:3047 inc/functions/shortcodes.php:3102
 msgid "Quaternary"
 msgstr ""
 
-#: functions.php:193 inc/admin/theme_options/settings.php:735
+#: functions.php:208 inc/admin/theme_options/settings.php:735
 #: inc/admin/theme_options/settings.php:4732 inc/functions/shortcodes.php:3048
 #: inc/functions/shortcodes.php:3103 inc/functions/shortcodes.php:3126
 msgid "Dark"
 msgstr ""
 
-#: functions.php:198 inc/admin/theme_options/settings.php:734
+#: functions.php:213 inc/admin/theme_options/settings.php:734
 #: inc/admin/theme_options/settings.php:4733 inc/functions/shortcodes.php:3049
 #: inc/functions/shortcodes.php:3104 inc/functions/shortcodes.php:3127
 msgid "Light"
 msgstr ""
 
-#: functions.php:754
+#: functions.php:804
 msgid "%curr% of %total%"
 msgstr ""
 
-#: functions.php:756
+#: functions.php:806
 msgid "<a href=\"%url%\">The image</a> could not be loaded."
 msgstr ""
 
-#: functions.php:758
+#: functions.php:808
 msgid "<a href=\"%url%\">The content</a> could not be loaded."
 msgstr ""
 
-#: functions.php:759 inc/admin/customizer/header-builder.php:673
+#: functions.php:809 inc/admin/customizer/header-builder.php:673
 msgid "Close"
 msgstr ""
 
-#: functions.php:762
+#: functions.php:812
 msgid "The requested content cannot be loaded.<br/>Please try again later."
 msgstr ""
 
-#: functions.php:763 inc/lib/infinite-scroll/infinite-scroll.php:175
+#: functions.php:813 inc/lib/infinite-scroll/infinite-scroll.php:175
 msgid "Loading..."
 msgstr ""
 
-#: functions.php:764
+#: functions.php:814
 #: inc/admin/ReduxCore/inc/extensions/customizer/inc/customizer_panel.php:141
 #: inc/admin/ReduxCore/inc/extensions/customizer/inc/customizer_section.php:79
 #: woocommerce/myaccount/form-register-2.php:69
 msgid "Back"
 msgstr ""
 
-#: functions.php:822
+#: functions.php:875
 msgid ""
 "If you want to import demo, please backup current theme options in "
 "\"Import / Export\" section before import. Do you want to import demo?"
+msgstr ""
+
+#: functions.php:976 inc/functions/shortcodes.php:3058
+msgid "Warning"
+msgstr ""
+
+#: functions.php:1017
+msgid "Captcha Invalid!"
 msgstr ""
 
 #: header/header_9.php:142
 msgid "Logout"
 msgstr ""
 
-#: header/header_9.php:160 inc/functions/layout.php:829
-#: inc/functions/layout.php:900 inc/functions/layout.php:1137
-#: inc/functions/layout.php:1149 inc/functions/layout.php:1463
-#: inc/functions/layout.php:1744 inc/functions/layout.php:1852
+#: header/header_9.php:160 inc/functions/layout.php:830
+#: inc/functions/layout.php:901 inc/functions/layout.php:1138
+#: inc/functions/layout.php:1150 inc/functions/layout.php:1464
+#: inc/functions/layout.php:1745 inc/functions/layout.php:1853
 #: woocommerce/myaccount/form-login.php:79
 #: woocommerce/myaccount/form-login.php:118
 #: woocommerce/myaccount/form-register.php:17
@@ -575,12 +583,12 @@ msgid "Secondary Logo"
 msgstr ""
 
 #: header/header_side.php:23 inc/admin/customizer/header-builder.php:49
-#: inc/functions/layout.php:2923
+#: inc/functions/layout.php:2924
 msgid "My Account"
 msgstr ""
 
 #: header/header_side.php:28 inc/admin/customizer/header-builder.php:50
-#: inc/functions/layout.php:2926
+#: inc/functions/layout.php:2927
 msgid "Wishlist"
 msgstr ""
 
@@ -737,10 +745,10 @@ msgstr ""
 #: inc/admin/theme_options/settings.php:5928
 #: inc/admin/theme_options/settings.php:5955
 #: inc/admin/theme_options/settings.php:6037
-#: inc/admin/theme_options/settings.php:6355
-#: inc/admin/theme_options/settings.php:6477
-#: inc/admin/theme_options/settings.php:6642
-#: inc/admin/theme_options/settings.php:6740
+#: inc/admin/theme_options/settings.php:6404
+#: inc/admin/theme_options/settings.php:6526
+#: inc/admin/theme_options/settings.php:6691
+#: inc/admin/theme_options/settings.php:6789
 #: inc/functions/content_type/meta_values.php:10
 #: inc/functions/content_type/meta_values.php:33
 #: inc/functions/content_type/meta_values.php:42
@@ -908,7 +916,7 @@ msgid ""
 msgstr ""
 
 #: inc/admin/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:116
-#: inc/lib/porto-studio/blocks.tpl.php:61
+#: inc/lib/porto-studio/blocks.tpl.php:62
 msgid "Import"
 msgstr ""
 
@@ -1063,7 +1071,6 @@ msgstr ""
 
 #: inc/admin/ReduxCore/inc/fields/color_rgba/field_color_rgba.php:72
 #: woocommerce/myaccount/my-orders.php:94 woocommerce/myaccount/orders.php:76
-#: woocommerce/wishlist-view.php:38
 msgid "Cancel"
 msgstr ""
 
@@ -1453,12 +1460,12 @@ msgstr ""
 #: inc/admin/admin.php:45 inc/admin/admin.php:48 inc/admin/admin.php:91
 #: inc/admin/admin.php:94 inc/admin/admin_pages/changelog.php:14
 #: inc/admin/admin_pages/welcome.php:17
-#: inc/admin/theme_options/settings.php:7567
+#: inc/admin/theme_options/settings.php:7616
 msgid "Theme Options"
 msgstr ""
 
 #: inc/admin/admin.php:46 inc/admin/admin.php:92
-#: inc/admin/theme_options/settings.php:7563
+#: inc/admin/theme_options/settings.php:7612
 msgid "Advanced Options"
 msgstr ""
 
@@ -1474,7 +1481,7 @@ msgstr ""
 
 #: inc/admin/admin.php:52 inc/admin/admin_pages/changelog.php:16
 #: inc/admin/admin_pages/welcome.php:19
-#: inc/admin/setup_wizard/setup_wizard.php:786
+#: inc/admin/setup_wizard/setup_wizard.php:853
 msgid "Setup Wizard"
 msgstr ""
 
@@ -1571,11 +1578,11 @@ msgid "Please enter your Purchase Code to complete registration."
 msgstr ""
 
 #: inc/admin/admin_pages/welcome.php:61
-#: inc/admin/setup_wizard/setup_wizard.php:1590
+#: inc/admin/setup_wizard/setup_wizard.php:1699
 msgid "Deactivate"
 msgstr ""
 
-#: inc/admin/admin_pages/welcome.php:64 inc/lib/porto-studio/blocks.tpl.php:51
+#: inc/admin/admin_pages/welcome.php:64 inc/lib/porto-studio/blocks.tpl.php:52
 #: inc/plugins/importer/porto-wordpress-importer.php:483
 #: inc/plugins/importer/wordpress-importer.php:372
 #: woocommerce/myaccount/form-register-2.php:70
@@ -1584,30 +1591,30 @@ msgid "Submit"
 msgstr ""
 
 #: inc/admin/admin_pages/welcome.php:73
-#: inc/admin/setup_wizard/setup_wizard.php:1569
+#: inc/admin/setup_wizard/setup_wizard.php:1678
 msgid "Where can I find my purchase code?"
 msgstr ""
 
 #: inc/admin/admin_pages/welcome.php:76
-#: inc/admin/setup_wizard/setup_wizard.php:1572
+#: inc/admin/setup_wizard/setup_wizard.php:1681
 #, php-format
 msgid "Please go to %1$sThemeForest.net/downloads%2$s"
 msgstr ""
 
 #: inc/admin/admin_pages/welcome.php:78
-#: inc/admin/setup_wizard/setup_wizard.php:1574
+#: inc/admin/setup_wizard/setup_wizard.php:1683
 #, php-format
 msgid "Click the %1$sDownload%2$s button in Porto row"
 msgstr ""
 
 #: inc/admin/admin_pages/welcome.php:80
-#: inc/admin/setup_wizard/setup_wizard.php:1576
+#: inc/admin/setup_wizard/setup_wizard.php:1685
 #, php-format
 msgid "Select %1$sLicense Certificate &amp; Purchase code%2$s"
 msgstr ""
 
 #: inc/admin/admin_pages/welcome.php:82
-#: inc/admin/setup_wizard/setup_wizard.php:1578
+#: inc/admin/setup_wizard/setup_wizard.php:1687
 #, php-format
 msgid "Copy %1$sItem Purchase Code%2$s"
 msgstr ""
@@ -1634,7 +1641,7 @@ msgid "Click here to view change logs."
 msgstr ""
 
 #: inc/admin/admin_pages/welcome.php:103
-#: inc/admin/setup_wizard/setup_wizard.php:1029
+#: inc/admin/setup_wizard/setup_wizard.php:1096
 msgid "System Status"
 msgstr ""
 
@@ -1885,7 +1892,6 @@ msgstr ""
 #: inc/admin/customizer/header-builder.php:448
 #: woocommerce/myaccount/form-lost-password.php:81
 #: woocommerce/myaccount/form-reset-password.php:38
-#: woocommerce/wishlist-view.php:34
 msgid "Save"
 msgstr ""
 
@@ -1979,72 +1985,72 @@ msgstr ""
 msgid "12 columns - 1/1"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:736
+#: inc/admin/setup_wizard/setup_wizard.php:803
 msgid "Theme &rsaquo; Setup Wizard"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:793
+#: inc/admin/setup_wizard/setup_wizard.php:860
 #: inc/admin/setup_wizard/speed_optimize_wizard.php:101
 msgid "Welcome"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:800
-#: inc/admin/setup_wizard/setup_wizard.php:1584
+#: inc/admin/setup_wizard/setup_wizard.php:867
+#: inc/admin/setup_wizard/setup_wizard.php:1693
 #: inc/admin/setup_wizard/speed_optimize_wizard.php:718
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2881
 msgid "Activate"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:806
+#: inc/admin/setup_wizard/setup_wizard.php:873
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2702
 #: woocommerce/myaccount/my-orders.php:20
 msgid "Status"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:812
+#: inc/admin/setup_wizard/setup_wizard.php:879
 msgid "Child Theme"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:819
+#: inc/admin/setup_wizard/setup_wizard.php:886
 msgid "Plugins"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:825
+#: inc/admin/setup_wizard/setup_wizard.php:892
 msgid "Demo Content"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:830
+#: inc/admin/setup_wizard/setup_wizard.php:897
 msgid "Support"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:835
+#: inc/admin/setup_wizard/setup_wizard.php:902
 msgid "Ready!"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:937
+#: inc/admin/setup_wizard/setup_wizard.php:1004
 #: inc/admin/setup_wizard/speed_optimize_wizard.php:241
 msgid "Return to the WordPress Dashboard"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:998
-#: inc/admin/setup_wizard/setup_wizard.php:1009
+#: inc/admin/setup_wizard/setup_wizard.php:1065
+#: inc/admin/setup_wizard/setup_wizard.php:1076
 #, php-format
 msgid "Welcome to the setup wizard for %s."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:999
+#: inc/admin/setup_wizard/setup_wizard.php:1066
 msgid "It looks like you already have setup Porto."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1002
+#: inc/admin/setup_wizard/setup_wizard.php:1069
 msgid "Run Setup Wizard Again"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1003
+#: inc/admin/setup_wizard/setup_wizard.php:1070
 msgid "Exit to Porto Panel"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1011
+#: inc/admin/setup_wizard/setup_wizard.php:1078
 #, php-format
 msgid ""
 "Thank you for choosing the %s theme. This quick setup wizard will help you "
@@ -2052,7 +2058,7 @@ msgid ""
 "plugins, demo content, logo, etc."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1012
+#: inc/admin/setup_wizard/setup_wizard.php:1079
 #: inc/admin/setup_wizard/speed_optimize_wizard.php:303
 msgid ""
 "No time right now? If you don't want to go through the wizard, you can skip "
@@ -2060,211 +2066,234 @@ msgid ""
 "mind!"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1014
+#: inc/admin/setup_wizard/setup_wizard.php:1081
 #: inc/admin/setup_wizard/speed_optimize_wizard.php:305
 msgid "Let's Go!"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1015
+#: inc/admin/setup_wizard/setup_wizard.php:1082
 #: inc/admin/setup_wizard/speed_optimize_wizard.php:306
 msgid "Not right now"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1032
-#: inc/admin/setup_wizard/setup_wizard.php:1169
-#: inc/admin/setup_wizard/setup_wizard.php:1493
-#: inc/admin/setup_wizard/setup_wizard.php:1542
-#: inc/admin/setup_wizard/setup_wizard.php:1646
-#: inc/functions/woocommerce.php:2045
+#: inc/admin/setup_wizard/setup_wizard.php:1099
+#: inc/admin/setup_wizard/setup_wizard.php:1236
+#: inc/admin/setup_wizard/setup_wizard.php:1602
+#: inc/admin/setup_wizard/setup_wizard.php:1651
+#: inc/admin/setup_wizard/setup_wizard.php:1755
+#: inc/functions/woocommerce.php:2101
 msgid "Continue"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1108
+#: inc/admin/setup_wizard/setup_wizard.php:1175
 msgid "Default Plugins"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1115
+#: inc/admin/setup_wizard/setup_wizard.php:1182
 msgid "This will install the default plugins which is used in Porto."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1116
+#: inc/admin/setup_wizard/setup_wizard.php:1183
 msgid "Please check the plugins to install."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1126
+#: inc/admin/setup_wizard/setup_wizard.php:1193
 msgid "Load more plugins fully compatible with Porto"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1137
+#: inc/admin/setup_wizard/setup_wizard.php:1204
 msgid "Installation"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1139
+#: inc/admin/setup_wizard/setup_wizard.php:1206
 #: inc/admin/setup_wizard/speed_optimize_wizard.php:716
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2878
 msgid "Update"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1141
+#: inc/admin/setup_wizard/setup_wizard.php:1208
 msgid "Activation"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1146
+#: inc/admin/setup_wizard/setup_wizard.php:1213
 #, php-format
 msgid "%s required"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1149
+#: inc/admin/setup_wizard/setup_wizard.php:1216
 #, php-format
 msgid "%s recommended for certain demos"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1164
+#: inc/admin/setup_wizard/setup_wizard.php:1231
 msgid ""
 "Good news! All plugins are already installed and up to date. Please continue."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1183
+#: inc/admin/setup_wizard/setup_wizard.php:1250
 #: inc/admin/setup_wizard/speed_optimize_wizard.php:757
 msgid "No Slug Found"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1203
+#: inc/admin/setup_wizard/setup_wizard.php:1270
 #: inc/admin/setup_wizard/speed_optimize_wizard.php:777
 msgid "Activating Plugin"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1218
+#: inc/admin/setup_wizard/setup_wizard.php:1285
 #: inc/admin/setup_wizard/speed_optimize_wizard.php:792
 msgid "Updating Plugin"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1233
+#: inc/admin/setup_wizard/setup_wizard.php:1300
 #: inc/admin/setup_wizard/speed_optimize_wizard.php:807
 msgid "Installing Plugin"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1247
+#: inc/admin/setup_wizard/setup_wizard.php:1314
 #: inc/admin/setup_wizard/speed_optimize_wizard.php:821
 #: inc/functions/shortcodes.php:3056
 msgid "Success"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1327
+#: inc/admin/setup_wizard/setup_wizard.php:1394
 msgid "Demo Install"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1328
+#: inc/admin/setup_wizard/setup_wizard.php:1395
 msgid "Upload Logo"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1360
+#: inc/admin/setup_wizard/setup_wizard.php:1427
 msgid "Upload New Logo"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1370
+#: inc/admin/setup_wizard/setup_wizard.php:1437
 msgid "Select Demo"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1394
+#: inc/admin/setup_wizard/setup_wizard.php:1468
 msgid "Demo"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1396
+#: inc/admin/setup_wizard/setup_wizard.php:1470
 msgid "Details"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1402
+#: inc/admin/setup_wizard/setup_wizard.php:1476
 msgid "Import theme options"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1404
+#: inc/admin/setup_wizard/setup_wizard.php:1478
 msgid "Reset menus"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1405
+#: inc/admin/setup_wizard/setup_wizard.php:1479
 msgid "Reset widgets"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1406
+#: inc/admin/setup_wizard/setup_wizard.php:1480
 msgid "Import dummy content"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1407
+#: inc/admin/setup_wizard/setup_wizard.php:1481
 msgid "Import widgets"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1408
+#: inc/admin/setup_wizard/setup_wizard.php:1482
 msgid "Import icons for ultimate addons plugin"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1409
+#: inc/admin/setup_wizard/setup_wizard.php:1483
 msgid "Import Element pages"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1410
+#: inc/admin/setup_wizard/setup_wizard.php:1484
 msgid "Override existing contents"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1412
+#: inc/admin/setup_wizard/setup_wizard.php:1486
 msgid "Do you want to install demo? It can also take a minute to complete."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1413
+#: inc/admin/setup_wizard/setup_wizard.php:1489
+#: inc/admin/setup_wizard/setup_wizard.php:1499
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:1492
+#: inc/admin/setup_wizard/setup_wizard.php:1503
+msgid "Elementor"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:1495
+msgid "Gutenberg"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:1500
+msgid "WPBakery Page Builder is required."
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:1504
+msgid "Elementor is required."
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:1506
+#: inc/admin/setup_wizard/setup_wizard.php:1584
+#, php-format
+msgid "Please go to %1$sPlugins step%2$s and install required plugins."
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:1510
 msgid "Standard Import"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1415
+#: inc/admin/setup_wizard/setup_wizard.php:1512
 msgid ""
 "Your server performance does not satisfy Porto demo importer engine's "
 "requirement. We recommend you to use alternative method to perform demo "
 "import without any issues but it may take much time than standard import."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1417
+#: inc/admin/setup_wizard/setup_wizard.php:1514
 msgid ""
 "If you have any issues with standard import, please use Alternative mode. "
 "But it may take much time than standard import."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1419
+#: inc/admin/setup_wizard/setup_wizard.php:1516
 msgid "Alternative Mode"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1423
-#: inc/admin/setup_wizard/setup_wizard.php:1536
+#: inc/admin/setup_wizard/setup_wizard.php:1521
+#: inc/admin/setup_wizard/setup_wizard.php:1645
 msgid "Activate Theme"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1425 single-event.php:115
+#: inc/admin/setup_wizard/setup_wizard.php:1523 single-event.php:115
 msgid "Live Preview"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1468
+#: inc/admin/setup_wizard/setup_wizard.php:1577
 #, php-format
 msgid ""
 "Demo sliders %1$swill not%2$s be installed if Revolution Slider is not "
 "active."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1475
-#, php-format
-msgid "Please go to %1$sPlugins step%2$s and install required plugins."
-msgstr ""
-
-#: inc/admin/setup_wizard/setup_wizard.php:1484
+#: inc/admin/setup_wizard/setup_wizard.php:1593
 msgid ""
 "Installing a demo provides pages, posts, menus, images, theme options, "
 "widgets and more."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1485
+#: inc/admin/setup_wizard/setup_wizard.php:1594
 msgid ""
 "IMPORTANT: The included plugins need to be installed and activated before "
 "you install a demo."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1487
+#: inc/admin/setup_wizard/setup_wizard.php:1596
 #, php-format
 msgid ""
 "Please check the %1$sStatus%2$s step to ensure your server meets all "
@@ -2272,28 +2301,28 @@ msgid ""
 "listed in red."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1488
+#: inc/admin/setup_wizard/setup_wizard.php:1597
 msgid ""
 "If you want to install demo later or don't want it, you can skip this step"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1539
+#: inc/admin/setup_wizard/setup_wizard.php:1648
 msgid "You are using Envato Hosted."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1559
+#: inc/admin/setup_wizard/setup_wizard.php:1668
 msgid "Purchase code not updated. We will keep the existing one."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1562
+#: inc/admin/setup_wizard/setup_wizard.php:1671
 #, php-format
 msgid ""
 "Your %1$spurchase code is valid%2$s. Thank you! Enjoy Porto Theme and "
 "automatic updates."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1585
-#: inc/admin/setup_wizard/setup_wizard.php:1640
+#: inc/admin/setup_wizard/setup_wizard.php:1694
+#: inc/admin/setup_wizard/setup_wizard.php:1749
 #: inc/admin/setup_wizard/speed_optimize_wizard.php:351
 #: inc/admin/setup_wizard/speed_optimize_wizard.php:459
 #: inc/admin/setup_wizard/speed_optimize_wizard.php:545
@@ -2301,15 +2330,15 @@ msgstr ""
 msgid "Skip this step"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1590
+#: inc/admin/setup_wizard/setup_wizard.php:1699
 msgid "Next Step"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1603
+#: inc/admin/setup_wizard/setup_wizard.php:1712
 msgid "Setup Porto Child Theme (Optional)"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1608
+#: inc/admin/setup_wizard/setup_wizard.php:1717
 msgid ""
 "If you are going to make changes to the theme source code please use a <a "
 "href=\"https://codex.wordpress.org/Child_Themes\" target=\"_blank\">Child "
@@ -2318,104 +2347,104 @@ msgid ""
 "code changes. Use the form below to create and activate the Child Theme."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1620
+#: inc/admin/setup_wizard/setup_wizard.php:1729
 msgid ""
 "If you're not sure what a Child Theme is just click the \"Skip this step\" "
 "button."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1635
+#: inc/admin/setup_wizard/setup_wizard.php:1744
 msgid "Child Theme Title"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1639
+#: inc/admin/setup_wizard/setup_wizard.php:1748
 msgid "Create and Use Child Theme"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1653
+#: inc/admin/setup_wizard/setup_wizard.php:1762
 msgid "Help and Support"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1673
+#: inc/admin/setup_wizard/setup_wizard.php:1782
 msgid "Agree and Continue"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1687
+#: inc/admin/setup_wizard/setup_wizard.php:1796
 msgid "Your Website is Ready!"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1694
+#: inc/admin/setup_wizard/setup_wizard.php:1803
 msgid "Next Steps"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1699
+#: inc/admin/setup_wizard/setup_wizard.php:1808
 msgid "Setup WooCommerce (optional)"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1700
+#: inc/admin/setup_wizard/setup_wizard.php:1809
 #: inc/admin/setup_wizard/speed_optimize_wizard.php:745
 msgid "View your new website!"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1704
+#: inc/admin/setup_wizard/setup_wizard.php:1813
 msgid "More Resources"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1706
+#: inc/admin/setup_wizard/setup_wizard.php:1815
 msgid "Porto Documentation"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1707
+#: inc/admin/setup_wizard/setup_wizard.php:1816
 msgid "Learn how to use WooCommerce"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1708
+#: inc/admin/setup_wizard/setup_wizard.php:1817
 msgid "Learn how to use WordPress"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1709
+#: inc/admin/setup_wizard/setup_wizard.php:1818
 msgid "Leave an Item Rating"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1731
+#: inc/admin/setup_wizard/setup_wizard.php:1840
 msgid "Remote API error."
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1802
+#: inc/admin/setup_wizard/setup_wizard.php:1911
 msgid "Successfully reset menus!"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1829
+#: inc/admin/setup_wizard/setup_wizard.php:1938
 msgid "Successfully reset widgets!"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1871
+#: inc/admin/setup_wizard/setup_wizard.php:1980
 #: inc/plugins/importer/porto-wordpress-importer.php:238
 msgid "Importing posts"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:1948
+#: inc/admin/setup_wizard/setup_wizard.php:2057
 #: inc/plugins/importer/porto-wordpress-importer.php:232
 msgid "Imported posts"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:2032
+#: inc/admin/setup_wizard/setup_wizard.php:2141
 msgid "Successfully imported widgets!"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:2055
+#: inc/admin/setup_wizard/setup_wizard.php:2165
 msgid "Successfully imported revolution sliders!"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:2105
+#: inc/admin/setup_wizard/setup_wizard.php:2215
 msgid "Successfully imported simple line icon!"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:2132
+#: inc/admin/setup_wizard/setup_wizard.php:2242
 msgid "Successfully imported theme options!"
 msgstr ""
 
-#: inc/admin/setup_wizard/setup_wizard.php:2134
+#: inc/admin/setup_wizard/setup_wizard.php:2244
 msgid ""
 "Successfully imported theme options! Please compile default css files in "
 "Theme Options > Skin > Compile Default CSS."
@@ -2664,7 +2693,7 @@ msgid "How to enable leverage browser  caching."
 msgstr ""
 
 #: inc/admin/setup_wizard/speed_optimize_wizard.php:742
-#: inc/plugins/plugins.php:204
+#: inc/plugins/plugins.php:211
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:335
 msgid "Install Plugins"
 msgstr ""
@@ -2715,9 +2744,9 @@ msgstr ""
 #: inc/admin/theme_options/settings.php:5744
 #: inc/admin/theme_options/settings.php:5945
 #: inc/admin/theme_options/settings.php:6163
-#: inc/admin/theme_options/settings.php:6327
-#: inc/admin/theme_options/settings.php:6624
-#: inc/admin/theme_options/settings.php:7321
+#: inc/admin/theme_options/settings.php:6376
+#: inc/admin/theme_options/settings.php:6673
+#: inc/admin/theme_options/settings.php:7370
 msgid "Page Layout"
 msgstr ""
 
@@ -2727,7 +2756,7 @@ msgstr ""
 #: inc/admin/theme_options/settings.php:5751
 #: inc/admin/theme_options/settings.php:5960
 #: inc/admin/theme_options/settings.php:6170
-#: inc/admin/theme_options/settings.php:7328
+#: inc/admin/theme_options/settings.php:7377
 msgid "Select Sidebar"
 msgstr ""
 
@@ -2737,9 +2766,9 @@ msgstr ""
 #: inc/admin/theme_options/settings.php:5758
 #: inc/admin/theme_options/settings.php:5967
 #: inc/admin/theme_options/settings.php:6177
-#: inc/admin/theme_options/settings.php:6334
-#: inc/admin/theme_options/settings.php:6632
-#: inc/admin/theme_options/settings.php:7335
+#: inc/admin/theme_options/settings.php:6383
+#: inc/admin/theme_options/settings.php:6681
+#: inc/admin/theme_options/settings.php:7384
 msgid "Select Sidebar 2"
 msgstr ""
 
@@ -2884,76 +2913,76 @@ msgstr ""
 #: inc/admin/theme_options/settings.php:6026
 #: inc/admin/theme_options/settings.php:6186
 #: inc/admin/theme_options/settings.php:6212
-#: inc/admin/theme_options/settings.php:6263
 #: inc/admin/theme_options/settings.php:6272
 #: inc/admin/theme_options/settings.php:6281
-#: inc/admin/theme_options/settings.php:6296
-#: inc/admin/theme_options/settings.php:6312
-#: inc/admin/theme_options/settings.php:6365
-#: inc/admin/theme_options/settings.php:6442
-#: inc/admin/theme_options/settings.php:6451
-#: inc/admin/theme_options/settings.php:6466
-#: inc/admin/theme_options/settings.php:6536
-#: inc/admin/theme_options/settings.php:6546
-#: inc/admin/theme_options/settings.php:6555
-#: inc/admin/theme_options/settings.php:6564
-#: inc/admin/theme_options/settings.php:6573
-#: inc/admin/theme_options/settings.php:6583
-#: inc/admin/theme_options/settings.php:6592
-#: inc/admin/theme_options/settings.php:6601
-#: inc/admin/theme_options/settings.php:6718
-#: inc/admin/theme_options/settings.php:6726
-#: inc/admin/theme_options/settings.php:6774
-#: inc/admin/theme_options/settings.php:6802
-#: inc/admin/theme_options/settings.php:6825
-#: inc/admin/theme_options/settings.php:6848
-#: inc/admin/theme_options/settings.php:6871
-#: inc/admin/theme_options/settings.php:6895
-#: inc/admin/theme_options/settings.php:6904
-#: inc/admin/theme_options/settings.php:6912
-#: inc/admin/theme_options/settings.php:6931
-#: inc/admin/theme_options/settings.php:6958
-#: inc/admin/theme_options/settings.php:6995
-#: inc/admin/theme_options/settings.php:7045
-#: inc/admin/theme_options/settings.php:7054
-#: inc/admin/theme_options/settings.php:7063
-#: inc/admin/theme_options/settings.php:7072
-#: inc/admin/theme_options/settings.php:7110
-#: inc/admin/theme_options/settings.php:7119
-#: inc/admin/theme_options/settings.php:7163
-#: inc/admin/theme_options/settings.php:7172
-#: inc/admin/theme_options/settings.php:7181
-#: inc/admin/theme_options/settings.php:7196
-#: inc/admin/theme_options/settings.php:7205
-#: inc/admin/theme_options/settings.php:7214
-#: inc/admin/theme_options/settings.php:7223
-#: inc/admin/theme_options/settings.php:7246
-#: inc/admin/theme_options/settings.php:7255
-#: inc/admin/theme_options/settings.php:7264
-#: inc/admin/theme_options/settings.php:7273
-#: inc/admin/theme_options/settings.php:7282
-#: inc/admin/theme_options/settings.php:7291
-#: inc/admin/theme_options/settings.php:7305
+#: inc/admin/theme_options/settings.php:6290
+#: inc/admin/theme_options/settings.php:6305
+#: inc/admin/theme_options/settings.php:6321
+#: inc/admin/theme_options/settings.php:6414
+#: inc/admin/theme_options/settings.php:6491
+#: inc/admin/theme_options/settings.php:6500
+#: inc/admin/theme_options/settings.php:6515
+#: inc/admin/theme_options/settings.php:6585
+#: inc/admin/theme_options/settings.php:6595
+#: inc/admin/theme_options/settings.php:6604
+#: inc/admin/theme_options/settings.php:6613
+#: inc/admin/theme_options/settings.php:6622
+#: inc/admin/theme_options/settings.php:6632
+#: inc/admin/theme_options/settings.php:6641
+#: inc/admin/theme_options/settings.php:6650
+#: inc/admin/theme_options/settings.php:6767
+#: inc/admin/theme_options/settings.php:6775
+#: inc/admin/theme_options/settings.php:6823
+#: inc/admin/theme_options/settings.php:6851
+#: inc/admin/theme_options/settings.php:6874
+#: inc/admin/theme_options/settings.php:6897
+#: inc/admin/theme_options/settings.php:6920
+#: inc/admin/theme_options/settings.php:6944
+#: inc/admin/theme_options/settings.php:6953
+#: inc/admin/theme_options/settings.php:6961
+#: inc/admin/theme_options/settings.php:6980
+#: inc/admin/theme_options/settings.php:7007
+#: inc/admin/theme_options/settings.php:7044
+#: inc/admin/theme_options/settings.php:7094
+#: inc/admin/theme_options/settings.php:7103
+#: inc/admin/theme_options/settings.php:7112
+#: inc/admin/theme_options/settings.php:7121
+#: inc/admin/theme_options/settings.php:7159
+#: inc/admin/theme_options/settings.php:7168
+#: inc/admin/theme_options/settings.php:7212
+#: inc/admin/theme_options/settings.php:7221
+#: inc/admin/theme_options/settings.php:7230
+#: inc/admin/theme_options/settings.php:7245
+#: inc/admin/theme_options/settings.php:7254
+#: inc/admin/theme_options/settings.php:7263
+#: inc/admin/theme_options/settings.php:7272
+#: inc/admin/theme_options/settings.php:7295
+#: inc/admin/theme_options/settings.php:7304
+#: inc/admin/theme_options/settings.php:7313
+#: inc/admin/theme_options/settings.php:7322
+#: inc/admin/theme_options/settings.php:7331
+#: inc/admin/theme_options/settings.php:7340
 #: inc/admin/theme_options/settings.php:7354
-#: inc/admin/theme_options/settings.php:7363
-#: inc/admin/theme_options/settings.php:7372
-#: inc/admin/theme_options/settings.php:7381
-#: inc/admin/theme_options/settings.php:7390
-#: inc/admin/theme_options/settings.php:7399
-#: inc/admin/theme_options/settings.php:7408
-#: inc/admin/theme_options/settings.php:7417
-#: inc/admin/theme_options/settings.php:7426
-#: inc/admin/theme_options/settings.php:7435
-#: inc/admin/theme_options/settings.php:7444
-#: inc/admin/theme_options/settings.php:7453
-#: inc/admin/theme_options/settings.php:7463
-#: inc/admin/theme_options/settings.php:7480
-#: inc/admin/theme_options/settings.php:7488
-#: inc/admin/theme_options/settings.php:7504
+#: inc/admin/theme_options/settings.php:7403
+#: inc/admin/theme_options/settings.php:7412
+#: inc/admin/theme_options/settings.php:7421
+#: inc/admin/theme_options/settings.php:7430
+#: inc/admin/theme_options/settings.php:7439
+#: inc/admin/theme_options/settings.php:7448
+#: inc/admin/theme_options/settings.php:7457
+#: inc/admin/theme_options/settings.php:7466
+#: inc/admin/theme_options/settings.php:7475
+#: inc/admin/theme_options/settings.php:7484
+#: inc/admin/theme_options/settings.php:7493
+#: inc/admin/theme_options/settings.php:7502
 #: inc/admin/theme_options/settings.php:7512
-#: inc/admin/theme_options/settings.php:7521
-#: inc/admin/theme_options/settings.php:7530
-#: inc/admin/theme_options/settings.php:7538 inc/functions/shortcodes.php:2389
+#: inc/admin/theme_options/settings.php:7529
+#: inc/admin/theme_options/settings.php:7537
+#: inc/admin/theme_options/settings.php:7553
+#: inc/admin/theme_options/settings.php:7561
+#: inc/admin/theme_options/settings.php:7570
+#: inc/admin/theme_options/settings.php:7579
+#: inc/admin/theme_options/settings.php:7587 inc/functions/shortcodes.php:2389
 #: inc/functions/shortcodes.php:2399
 msgid "Yes"
 msgstr ""
@@ -3074,76 +3103,76 @@ msgstr ""
 #: inc/admin/theme_options/settings.php:6027
 #: inc/admin/theme_options/settings.php:6187
 #: inc/admin/theme_options/settings.php:6213
-#: inc/admin/theme_options/settings.php:6264
 #: inc/admin/theme_options/settings.php:6273
 #: inc/admin/theme_options/settings.php:6282
-#: inc/admin/theme_options/settings.php:6297
-#: inc/admin/theme_options/settings.php:6313
-#: inc/admin/theme_options/settings.php:6366
-#: inc/admin/theme_options/settings.php:6443
-#: inc/admin/theme_options/settings.php:6452
-#: inc/admin/theme_options/settings.php:6467
-#: inc/admin/theme_options/settings.php:6537
-#: inc/admin/theme_options/settings.php:6547
-#: inc/admin/theme_options/settings.php:6556
-#: inc/admin/theme_options/settings.php:6565
-#: inc/admin/theme_options/settings.php:6574
-#: inc/admin/theme_options/settings.php:6584
-#: inc/admin/theme_options/settings.php:6593
-#: inc/admin/theme_options/settings.php:6602
-#: inc/admin/theme_options/settings.php:6719
-#: inc/admin/theme_options/settings.php:6727
-#: inc/admin/theme_options/settings.php:6775
-#: inc/admin/theme_options/settings.php:6803
-#: inc/admin/theme_options/settings.php:6826
-#: inc/admin/theme_options/settings.php:6849
-#: inc/admin/theme_options/settings.php:6872
-#: inc/admin/theme_options/settings.php:6896
-#: inc/admin/theme_options/settings.php:6905
-#: inc/admin/theme_options/settings.php:6913
-#: inc/admin/theme_options/settings.php:6932
-#: inc/admin/theme_options/settings.php:6959
-#: inc/admin/theme_options/settings.php:6996
-#: inc/admin/theme_options/settings.php:7046
-#: inc/admin/theme_options/settings.php:7055
-#: inc/admin/theme_options/settings.php:7064
-#: inc/admin/theme_options/settings.php:7073
-#: inc/admin/theme_options/settings.php:7111
-#: inc/admin/theme_options/settings.php:7120
-#: inc/admin/theme_options/settings.php:7164
-#: inc/admin/theme_options/settings.php:7173
-#: inc/admin/theme_options/settings.php:7182
-#: inc/admin/theme_options/settings.php:7197
-#: inc/admin/theme_options/settings.php:7206
-#: inc/admin/theme_options/settings.php:7215
-#: inc/admin/theme_options/settings.php:7224
-#: inc/admin/theme_options/settings.php:7247
-#: inc/admin/theme_options/settings.php:7256
-#: inc/admin/theme_options/settings.php:7265
-#: inc/admin/theme_options/settings.php:7274
-#: inc/admin/theme_options/settings.php:7283
-#: inc/admin/theme_options/settings.php:7292
-#: inc/admin/theme_options/settings.php:7306
+#: inc/admin/theme_options/settings.php:6291
+#: inc/admin/theme_options/settings.php:6306
+#: inc/admin/theme_options/settings.php:6322
+#: inc/admin/theme_options/settings.php:6415
+#: inc/admin/theme_options/settings.php:6492
+#: inc/admin/theme_options/settings.php:6501
+#: inc/admin/theme_options/settings.php:6516
+#: inc/admin/theme_options/settings.php:6586
+#: inc/admin/theme_options/settings.php:6596
+#: inc/admin/theme_options/settings.php:6605
+#: inc/admin/theme_options/settings.php:6614
+#: inc/admin/theme_options/settings.php:6623
+#: inc/admin/theme_options/settings.php:6633
+#: inc/admin/theme_options/settings.php:6642
+#: inc/admin/theme_options/settings.php:6651
+#: inc/admin/theme_options/settings.php:6768
+#: inc/admin/theme_options/settings.php:6776
+#: inc/admin/theme_options/settings.php:6824
+#: inc/admin/theme_options/settings.php:6852
+#: inc/admin/theme_options/settings.php:6875
+#: inc/admin/theme_options/settings.php:6898
+#: inc/admin/theme_options/settings.php:6921
+#: inc/admin/theme_options/settings.php:6945
+#: inc/admin/theme_options/settings.php:6954
+#: inc/admin/theme_options/settings.php:6962
+#: inc/admin/theme_options/settings.php:6981
+#: inc/admin/theme_options/settings.php:7008
+#: inc/admin/theme_options/settings.php:7045
+#: inc/admin/theme_options/settings.php:7095
+#: inc/admin/theme_options/settings.php:7104
+#: inc/admin/theme_options/settings.php:7113
+#: inc/admin/theme_options/settings.php:7122
+#: inc/admin/theme_options/settings.php:7160
+#: inc/admin/theme_options/settings.php:7169
+#: inc/admin/theme_options/settings.php:7213
+#: inc/admin/theme_options/settings.php:7222
+#: inc/admin/theme_options/settings.php:7231
+#: inc/admin/theme_options/settings.php:7246
+#: inc/admin/theme_options/settings.php:7255
+#: inc/admin/theme_options/settings.php:7264
+#: inc/admin/theme_options/settings.php:7273
+#: inc/admin/theme_options/settings.php:7296
+#: inc/admin/theme_options/settings.php:7305
+#: inc/admin/theme_options/settings.php:7314
+#: inc/admin/theme_options/settings.php:7323
+#: inc/admin/theme_options/settings.php:7332
+#: inc/admin/theme_options/settings.php:7341
 #: inc/admin/theme_options/settings.php:7355
-#: inc/admin/theme_options/settings.php:7364
-#: inc/admin/theme_options/settings.php:7373
-#: inc/admin/theme_options/settings.php:7382
-#: inc/admin/theme_options/settings.php:7391
-#: inc/admin/theme_options/settings.php:7400
-#: inc/admin/theme_options/settings.php:7409
-#: inc/admin/theme_options/settings.php:7418
-#: inc/admin/theme_options/settings.php:7427
-#: inc/admin/theme_options/settings.php:7436
-#: inc/admin/theme_options/settings.php:7445
-#: inc/admin/theme_options/settings.php:7454
-#: inc/admin/theme_options/settings.php:7464
-#: inc/admin/theme_options/settings.php:7481
-#: inc/admin/theme_options/settings.php:7489
-#: inc/admin/theme_options/settings.php:7505
+#: inc/admin/theme_options/settings.php:7404
+#: inc/admin/theme_options/settings.php:7413
+#: inc/admin/theme_options/settings.php:7422
+#: inc/admin/theme_options/settings.php:7431
+#: inc/admin/theme_options/settings.php:7440
+#: inc/admin/theme_options/settings.php:7449
+#: inc/admin/theme_options/settings.php:7458
+#: inc/admin/theme_options/settings.php:7467
+#: inc/admin/theme_options/settings.php:7476
+#: inc/admin/theme_options/settings.php:7485
+#: inc/admin/theme_options/settings.php:7494
+#: inc/admin/theme_options/settings.php:7503
 #: inc/admin/theme_options/settings.php:7513
-#: inc/admin/theme_options/settings.php:7522
-#: inc/admin/theme_options/settings.php:7531
-#: inc/admin/theme_options/settings.php:7539
+#: inc/admin/theme_options/settings.php:7530
+#: inc/admin/theme_options/settings.php:7538
+#: inc/admin/theme_options/settings.php:7554
+#: inc/admin/theme_options/settings.php:7562
+#: inc/admin/theme_options/settings.php:7571
+#: inc/admin/theme_options/settings.php:7580
+#: inc/admin/theme_options/settings.php:7588
 msgid "No"
 msgstr ""
 
@@ -3240,7 +3269,7 @@ msgstr ""
 
 #: inc/admin/theme_options/settings.php:367
 #: inc/admin/theme_options/settings.php:4416
-#: inc/admin/theme_options/settings.php:6854
+#: inc/admin/theme_options/settings.php:6903
 msgid "Content Bottom"
 msgstr ""
 
@@ -3872,7 +3901,7 @@ msgstr ""
 #: inc/admin/theme_options/settings.php:5066
 #: inc/admin/theme_options/settings.php:5370
 #: inc/admin/theme_options/settings.php:5999
-#: inc/admin/theme_options/settings.php:6706 inc/functions/shortcodes.php:109
+#: inc/admin/theme_options/settings.php:6755 inc/functions/shortcodes.php:109
 #: inc/functions/shortcodes.php:1289 inc/functions/shortcodes.php:2869
 #: inc/functions/shortcodes.php:3055
 msgid "None"
@@ -4096,7 +4125,7 @@ msgstr ""
 
 #: inc/admin/theme_options/settings.php:2457
 #: inc/admin/theme_options/settings.php:2580
-#: inc/admin/theme_options/settings.php:6979 inc/functions/shortcodes.php:1369
+#: inc/admin/theme_options/settings.php:7028 inc/functions/shortcodes.php:1369
 msgid "Border Color"
 msgstr ""
 
@@ -4424,45 +4453,45 @@ msgstr ""
 #: inc/admin/theme_options/settings.php:3147
 #: inc/admin/theme_options/settings.php:5915
 #: inc/admin/theme_options/settings.php:6024
-#: inc/admin/theme_options/settings.php:7351
+#: inc/admin/theme_options/settings.php:7400
 msgid "Show Social Links"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:3155
-#: inc/admin/theme_options/settings.php:7360
+#: inc/admin/theme_options/settings.php:7409
 msgid "Add rel=\"nofollow\" to social links"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3176 inc/functions/layout.php:2051
+#: inc/admin/theme_options/settings.php:3176 inc/functions/layout.php:2052
 msgid "RSS"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3188 inc/functions/layout.php:2063
+#: inc/admin/theme_options/settings.php:3188 inc/functions/layout.php:2064
 msgid "Youtube"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3200 inc/functions/layout.php:2075
+#: inc/admin/theme_options/settings.php:3200 inc/functions/layout.php:2076
 msgid "Skype"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3212 inc/functions/layout.php:2087
+#: inc/admin/theme_options/settings.php:3212 inc/functions/layout.php:2088
 msgid "Google Plus"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3248 inc/functions/layout.php:2123
+#: inc/admin/theme_options/settings.php:3248 inc/functions/layout.php:2124
 msgid "Telegram"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3254 inc/functions/layout.php:2129
+#: inc/admin/theme_options/settings.php:3254 inc/functions/layout.php:2130
 msgid "Yelp"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3260 inc/functions/layout.php:2135
+#: inc/admin/theme_options/settings.php:3260 inc/functions/layout.php:2136
 msgid "Flickr"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:3267
-#: inc/admin/theme_options/settings.php:7460
+#: inc/admin/theme_options/settings.php:7509
 msgid "Only For Mobile"
 msgstr ""
 
@@ -4511,14 +4540,14 @@ msgid "Post"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:3335
-#: inc/admin/theme_options/settings.php:7100
+#: inc/admin/theme_options/settings.php:7149
 #: woocommerce/checkout/form-pay.php:21
 #: woocommerce/checkout/review-order.php:14
 msgid "Product"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:3344
-#: inc/admin/theme_options/settings.php:6553
+#: inc/admin/theme_options/settings.php:6602
 msgid "Show Categories"
 msgstr ""
 
@@ -4916,7 +4945,7 @@ msgstr ""
 #: inc/admin/theme_options/settings.php:4267
 #: inc/admin/theme_options/settings.php:4512
 #: inc/admin/theme_options/settings.php:5327
-#: inc/admin/theme_options/settings.php:6846
+#: inc/admin/theme_options/settings.php:6895
 msgid "Show Social Share Links"
 msgstr ""
 
@@ -4970,12 +4999,12 @@ msgstr ""
 #: inc/admin/theme_options/settings.php:4139
 #: inc/admin/theme_options/settings.php:4817
 #: inc/admin/theme_options/settings.php:4836
-#: inc/admin/theme_options/settings.php:6752
+#: inc/admin/theme_options/settings.php:6801
 msgid "Categories"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:4140
-#: inc/admin/theme_options/settings.php:6753
+#: inc/admin/theme_options/settings.php:6802
 msgid "Tags"
 msgstr ""
 
@@ -5049,7 +5078,6 @@ msgstr ""
 
 #: inc/admin/theme_options/settings.php:4210
 #: inc/admin/theme_options/settings.php:4466
-#: inc/admin/theme_options/settings.php:6245
 msgid "Woocommerce"
 msgstr ""
 
@@ -5210,7 +5238,7 @@ msgstr ""
 #: inc/admin/theme_options/settings.php:5232
 #: inc/admin/theme_options/settings.php:5620
 #: inc/admin/theme_options/settings.php:5975
-#: inc/admin/theme_options/settings.php:6855
+#: inc/admin/theme_options/settings.php:6904
 msgid ""
 "Please input comma separated block slug names. You can create a block in "
 "<strong>Blocks/Add New</strong>."
@@ -5493,7 +5521,7 @@ msgid "Client"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:4822
-#: inc/admin/theme_options/settings.php:6255
+#: inc/admin/theme_options/settings.php:6264
 msgid "Link"
 msgstr ""
 
@@ -5560,13 +5588,13 @@ msgid "Filter Style"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:4936
-#: inc/admin/theme_options/settings.php:6525 inc/functions/shortcodes.php:2900
+#: inc/admin/theme_options/settings.php:6574 inc/functions/shortcodes.php:2900
 #: inc/functions/shortcodes.php:2986
 msgid "Style 1"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:4937
-#: inc/admin/theme_options/settings.php:6526 inc/functions/shortcodes.php:2901
+#: inc/admin/theme_options/settings.php:6575 inc/functions/shortcodes.php:2901
 #: inc/functions/shortcodes.php:2987
 msgid "Style 2"
 msgstr ""
@@ -5635,7 +5663,7 @@ msgstr ""
 
 #: inc/admin/theme_options/settings.php:5021
 #: inc/admin/theme_options/settings.php:5413
-#: inc/admin/theme_options/settings.php:6497
+#: inc/admin/theme_options/settings.php:6546
 msgid "Out of Image"
 msgstr ""
 
@@ -5815,7 +5843,7 @@ msgid "Full Images"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:5294
-#: inc/admin/theme_options/settings.php:6646
+#: inc/admin/theme_options/settings.php:6695
 msgid "Extended"
 msgstr ""
 
@@ -5930,12 +5958,12 @@ msgid "Member Columns"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:5829
-#: inc/admin/theme_options/settings.php:6427
+#: inc/admin/theme_options/settings.php:6476
 msgid "Type 1"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:5833
-#: inc/admin/theme_options/settings.php:6431
+#: inc/admin/theme_options/settings.php:6480
 msgid "Type 2"
 msgstr ""
 
@@ -6076,726 +6104,763 @@ msgstr ""
 msgid "Input a block slug name"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6251
+#: inc/admin/theme_options/settings.php:6254
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:6260
 msgid "Login Style"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6254
+#: inc/admin/theme_options/settings.php:6263
 msgid "Lightbox"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6261
+#: inc/admin/theme_options/settings.php:6270
 msgid "Show Rating in Woocommerce Products Widget"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6270
+#: inc/admin/theme_options/settings.php:6279
 msgid "Show Border on product images"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6278
+#: inc/admin/theme_options/settings.php:6287
 msgid "Show \"Hot\" Label"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6279
+#: inc/admin/theme_options/settings.php:6288
 msgid "Will be show in the featured product."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6288
+#: inc/admin/theme_options/settings.php:6297
 msgid "\"Hot\" Text"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6294
+#: inc/admin/theme_options/settings.php:6303
 msgid "Show \"Sale\" Label"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6303
+#: inc/admin/theme_options/settings.php:6312
 msgid "\"Sale\" Text"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6310
+#: inc/admin/theme_options/settings.php:6319
 msgid "Show Saved Sale Price Percentage"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6322
-msgid "Product Archives"
+#: inc/admin/theme_options/settings.php:6328
+msgid "Select roles to see price"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6341
-msgid "Filter Layout"
+#: inc/admin/theme_options/settings.php:6336
+msgid "Enable Pre-Order"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6344
-msgid "Filters in Left & Right Sidebar"
+#: inc/admin/theme_options/settings.php:6342
+msgid "Pre-order Label"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6345
-msgid "Horizontal filters 1"
+#: inc/admin/theme_options/settings.php:6343
+msgid "This text will be used on 'Add to Cart' button."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6346
-msgid "Horizontal filters 2"
+#: inc/admin/theme_options/settings.php:6350
+msgid "Availability Date Text"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:6352
-msgid "Pagination style"
+#, php-format
+msgid "ex: Available date: %s (%s will be replaced with available date.)"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6356
-msgid "Load More"
+#: inc/admin/theme_options/settings.php:6359
+msgid "No Date Message"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6357
-msgid "Infinite Scroll"
-msgstr ""
-
-#: inc/admin/theme_options/settings.php:6363
-msgid "Enable Ajax Filter"
+#: inc/admin/theme_options/settings.php:6360
+msgid "Available soon"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:6371
-msgid "Products per Page"
+msgid "Product Archives"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6372
-msgid "Comma separated list of product counts."
+#: inc/admin/theme_options/settings.php:6390
+msgid "Filter Layout"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6379
-msgid "View Mode"
+#: inc/admin/theme_options/settings.php:6393
+msgid "Filters in Left & Right Sidebar"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6387
-msgid "Shop Page Product Columns"
+#: inc/admin/theme_options/settings.php:6394
+msgid "Horizontal filters 1"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6396
-msgid "Shop Page Product Columns on Mobile ( < 576px )"
+#: inc/admin/theme_options/settings.php:6395
+msgid "Horizontal filters 2"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:6401
+msgid "Pagination style"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:6405
+msgid "Load More"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:6406
+msgid "Infinite Scroll"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:6412
+msgid "Enable Ajax Filter"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:6420
+msgid "Products per Page"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:6421
+msgid "Comma separated list of product counts."
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:6428
+msgid "View Mode"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:6436
+msgid "Shop Page Product Columns"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:6445
+msgid "Shop Page Product Columns on Mobile ( < 576px )"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:6454
 msgid "Category Product Columns"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6414
+#: inc/admin/theme_options/settings.php:6463
 msgid "Category Product Columns on Mobile ( < 576px )"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6423
+#: inc/admin/theme_options/settings.php:6472
 msgid "Category View Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6440
+#: inc/admin/theme_options/settings.php:6489
 msgid "Enable Image Hover Effect"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6449
+#: inc/admin/theme_options/settings.php:6498
 msgid "Show \"Out of stock\" Status"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6458
+#: inc/admin/theme_options/settings.php:6507
 msgid "Add Links Options"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6464
+#: inc/admin/theme_options/settings.php:6513
 msgid "Change \"A\" Tag to \"SPAN\" Tag"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6473
-#: inc/admin/theme_options/settings.php:6639
+#: inc/admin/theme_options/settings.php:6522
+#: inc/admin/theme_options/settings.php:6688
 msgid "Product Layout"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6474
+#: inc/admin/theme_options/settings.php:6523
 msgid "Select position of add to cart, add to wishlist, quickview."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6481
+#: inc/admin/theme_options/settings.php:6530
 msgid "Default - Show Links on Hover"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6485
+#: inc/admin/theme_options/settings.php:6534
 msgid "Add to Cart, Quick View On Image"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6489
+#: inc/admin/theme_options/settings.php:6538
 msgid "Add to Cart, Quick View On Image with Padding"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6493
+#: inc/admin/theme_options/settings.php:6542
 msgid "Link On Image"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6501
+#: inc/admin/theme_options/settings.php:6550
 msgid "On Image"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6505
+#: inc/admin/theme_options/settings.php:6554
 msgid "On Image with Overlay 1"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6509
+#: inc/admin/theme_options/settings.php:6558
 msgid "On Image with Overlay 2"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6513
+#: inc/admin/theme_options/settings.php:6562
 msgid "Show Quantity Input"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6523
+#: inc/admin/theme_options/settings.php:6572
 msgid "Add to Cart Notification Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6534
+#: inc/admin/theme_options/settings.php:6583
 msgid "Enable Hover Effect"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6543
+#: inc/admin/theme_options/settings.php:6592
 msgid "Show Color / Image swatch"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6544
+#: inc/admin/theme_options/settings.php:6593
 msgid "This is available for only variable product"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6562
-#: inc/admin/theme_options/settings.php:7107
+#: inc/admin/theme_options/settings.php:6611
+#: inc/admin/theme_options/settings.php:7156
 msgid "Show Reviews"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6571
-#: inc/admin/theme_options/settings.php:7051
+#: inc/admin/theme_options/settings.php:6620
+#: inc/admin/theme_options/settings.php:7100
 msgid "Show Price"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6580
+#: inc/admin/theme_options/settings.php:6629
 msgid "Show Description"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6581
+#: inc/admin/theme_options/settings.php:6630
 msgid "This works for only Grid view."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6590
+#: inc/admin/theme_options/settings.php:6639
 msgid "Show Wishlist"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6599
+#: inc/admin/theme_options/settings.php:6648
 msgid "Show Quick View"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6609
+#: inc/admin/theme_options/settings.php:6658
 msgid "\"Quick View\" Text"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6618
+#: inc/admin/theme_options/settings.php:6667
 msgid "Single Product"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6650
+#: inc/admin/theme_options/settings.php:6699
 msgid "Full Width"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6654
+#: inc/admin/theme_options/settings.php:6703
 msgid "Grid Images"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6658
+#: inc/admin/theme_options/settings.php:6707
 msgid "Sticky Info"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6662
+#: inc/admin/theme_options/settings.php:6711
 msgid "Sticky Left & Right Info"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6666
+#: inc/admin/theme_options/settings.php:6715
 msgid "Transparent Images"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6670
+#: inc/admin/theme_options/settings.php:6719
 msgid "Centered Vertical Zoom"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6674
+#: inc/admin/theme_options/settings.php:6723
 msgid "Left Sidebar"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6678 inc/functions/shortcodes.php:3029
+#: inc/admin/theme_options/settings.php:6727 inc/functions/shortcodes.php:3029
 msgid "Custom"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6688
+#: inc/admin/theme_options/settings.php:6737
 msgid "Custom Product Layout"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6689
+#: inc/admin/theme_options/settings.php:6738
 msgid ""
 "Please select a product layout. You can create a product layout in "
 "<strong>Product Layouts/Add New</strong>."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6704
+#: inc/admin/theme_options/settings.php:6753
 msgid "Sticky add to cart section"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6707
+#: inc/admin/theme_options/settings.php:6756
 msgid "At the Top"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6708
+#: inc/admin/theme_options/settings.php:6757
 msgid "At the Bottom"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6716
+#: inc/admin/theme_options/settings.php:6765
 msgid "Show Prev/Next Product"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6724
+#: inc/admin/theme_options/settings.php:6773
 msgid "Show Short Description"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6732
+#: inc/admin/theme_options/settings.php:6781
 msgid "Custom Tabs Count"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6738
+#: inc/admin/theme_options/settings.php:6787
 msgid "Tabs Position"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6741
+#: inc/admin/theme_options/settings.php:6790
 msgid "Below Price & Short Description"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6748
+#: inc/admin/theme_options/settings.php:6797
 msgid "Product Meta"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6751
+#: inc/admin/theme_options/settings.php:6800
 msgid "SKU"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6759
+#: inc/admin/theme_options/settings.php:6808
 msgid "Variation(Attribute) Selection Mode"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6760
+#: inc/admin/theme_options/settings.php:6809
 msgid "This is used in variable product page."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6765
+#: inc/admin/theme_options/settings.php:6814
 msgid "Image / Color swatch"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6766
+#: inc/admin/theme_options/settings.php:6815
 msgid "Select Box"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6772
+#: inc/admin/theme_options/settings.php:6821
 msgid "Show Description of Selected Attribute"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6780
+#: inc/admin/theme_options/settings.php:6829
 msgid "Global Product Custom Tab Title"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6786
+#: inc/admin/theme_options/settings.php:6835
 msgid "Global Product Custom Tab Block"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6787
+#: inc/admin/theme_options/settings.php:6836
 msgid "Input block slug name"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6793
+#: inc/admin/theme_options/settings.php:6842
 msgid "Global Product Custom Tab Priority"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6794
+#: inc/admin/theme_options/settings.php:6843
 msgid ""
 "Input the custom tab priority. (Description: 10, Additional Information: 20, "
 "Reviews: 30)"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6800
+#: inc/admin/theme_options/settings.php:6849
 msgid "Show Related Products"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6809
+#: inc/admin/theme_options/settings.php:6858
 msgid "Related Products Count"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6816
+#: inc/admin/theme_options/settings.php:6865
 msgid "Related Product Columns"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6823
+#: inc/admin/theme_options/settings.php:6872
 msgid "Show Up Sells"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6832
+#: inc/admin/theme_options/settings.php:6881
 msgid "Up Sells Count"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6839
+#: inc/admin/theme_options/settings.php:6888
 msgid "Up Sells Product Columns"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6863
+#: inc/admin/theme_options/settings.php:6912
 msgid "Product Image & Zoom"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6869
+#: inc/admin/theme_options/settings.php:6918
 msgid "Show Thumbnails"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6878
+#: inc/admin/theme_options/settings.php:6927
 msgid "Thumbnails Count"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6893
+#: inc/admin/theme_options/settings.php:6942
 msgid "Enable Image Zoom"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6901
+#: inc/admin/theme_options/settings.php:6950
 msgid "Enable Image Zoom on Mobile"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6910
+#: inc/admin/theme_options/settings.php:6959
 msgid "Enable Image Popup"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6918
+#: inc/admin/theme_options/settings.php:6967
 msgid "Zoom Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6920
+#: inc/admin/theme_options/settings.php:6969
 msgid "Inner"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6921
+#: inc/admin/theme_options/settings.php:6970
 msgid "Lens"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6929
+#: inc/admin/theme_options/settings.php:6978
 msgid "Scroll Zoom"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6938
+#: inc/admin/theme_options/settings.php:6987
 msgid "Lens Size"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6945
+#: inc/admin/theme_options/settings.php:6994
 msgid "Lens Shape"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6947 inc/functions/shortcodes.php:2769
+#: inc/admin/theme_options/settings.php:6996 inc/functions/shortcodes.php:2769
 msgid "Round"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6948 inc/functions/shortcodes.php:2770
+#: inc/admin/theme_options/settings.php:6997 inc/functions/shortcodes.php:2770
 msgid "Square"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6956
+#: inc/admin/theme_options/settings.php:7005
 msgid "Contain Lens Zoom"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6965
+#: inc/admin/theme_options/settings.php:7014
 msgid "Lens Border"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6972 inc/functions/shortcodes.php:1396
+#: inc/admin/theme_options/settings.php:7021 inc/functions/shortcodes.php:1396
 msgid "Border Size"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6987
+#: inc/admin/theme_options/settings.php:7036
 msgid "Cart Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6993
+#: inc/admin/theme_options/settings.php:7042
 msgid "Show Cross Sells"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7002
+#: inc/admin/theme_options/settings.php:7051
 msgid "Cross Sells Count"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7008
+#: inc/admin/theme_options/settings.php:7057
 msgid "Cart Page Version"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7010
-#: inc/admin/theme_options/settings.php:7028
+#: inc/admin/theme_options/settings.php:7059
+#: inc/admin/theme_options/settings.php:7077
 msgid "Version 1"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7011
-#: inc/admin/theme_options/settings.php:7029
+#: inc/admin/theme_options/settings.php:7060
+#: inc/admin/theme_options/settings.php:7078
 msgid "Version 2"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7021
+#: inc/admin/theme_options/settings.php:7070
 msgid "Checkout Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7026
+#: inc/admin/theme_options/settings.php:7075
 msgid "Checkout Page Version"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7038
+#: inc/admin/theme_options/settings.php:7087
 msgid "Catalog Mode"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7043
+#: inc/admin/theme_options/settings.php:7092
 msgid "Enable Catalog Mode"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7060
+#: inc/admin/theme_options/settings.php:7109
 msgid "Show Add Cart Button"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7069
+#: inc/admin/theme_options/settings.php:7118
 msgid "Show Read More Button"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7078
+#: inc/admin/theme_options/settings.php:7127
 msgid "Read More Button Target"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7081
+#: inc/admin/theme_options/settings.php:7130
 msgid "Self"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7082
+#: inc/admin/theme_options/settings.php:7131
 msgid "Blank"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7090
+#: inc/admin/theme_options/settings.php:7139
 msgid "Read More Button Label"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7096
+#: inc/admin/theme_options/settings.php:7145
 msgid "Use Read More Link in"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7099
+#: inc/admin/theme_options/settings.php:7148
 msgid "Product and Product Archives"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7116
+#: inc/admin/theme_options/settings.php:7165
 msgid "Enable also for administrators"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7128
+#: inc/admin/theme_options/settings.php:7177
 msgid "Registration form"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7133
+#: inc/admin/theme_options/settings.php:7182
 msgid "Fields"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7136
+#: inc/admin/theme_options/settings.php:7185
 msgid "Full Info"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7137
+#: inc/admin/theme_options/settings.php:7186
 msgid "Short Info"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7148
+#: inc/admin/theme_options/settings.php:7197
 msgid "Wc Vendor"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7155
+#: inc/admin/theme_options/settings.php:7204
 msgid "General Wc Vendor Shop Settings"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7160
+#: inc/admin/theme_options/settings.php:7209
 msgid "Select Vendor Phone Number"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7169
+#: inc/admin/theme_options/settings.php:7218
 msgid "Show Vendor Email"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7178
+#: inc/admin/theme_options/settings.php:7227
 msgid "Show Vendor URL"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7187
+#: inc/admin/theme_options/settings.php:7236
 msgid "WC Vendors - Shop Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7193
+#: inc/admin/theme_options/settings.php:7242
 msgid "Vendor Description on Top of Shop Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7202
-#: inc/admin/theme_options/settings.php:7252
+#: inc/admin/theme_options/settings.php:7251
+#: inc/admin/theme_options/settings.php:7301
 msgid "Show Vendor Avatar in Vendor Description"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7211
-#: inc/admin/theme_options/settings.php:7261
+#: inc/admin/theme_options/settings.php:7260
+#: inc/admin/theme_options/settings.php:7310
 msgid "Show Social and Contact Info in Vendor Description"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7220
+#: inc/admin/theme_options/settings.php:7269
 msgid "Sold by\" at Product List"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7229
+#: inc/admin/theme_options/settings.php:7278
 msgid "WC Vendors - Single Product Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7243
+#: inc/admin/theme_options/settings.php:7292
 msgid "Vendor Description on Top of Single Product Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7270
+#: inc/admin/theme_options/settings.php:7319
 msgid "\"Seller Info\" at Product Tab"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7279
+#: inc/admin/theme_options/settings.php:7328
 msgid "\"More From This Seller\" Products"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7288
+#: inc/admin/theme_options/settings.php:7337
 msgid "Sold by\" at Product Meta"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7297
+#: inc/admin/theme_options/settings.php:7346
 msgid "WC Vendors - Cart Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7302
+#: inc/admin/theme_options/settings.php:7351
 msgid "\"Sold by\" at Cart page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7315
+#: inc/admin/theme_options/settings.php:7364
 msgid "BBPress & BuddyPress"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7345
+#: inc/admin/theme_options/settings.php:7394
 msgid "Social Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7352
+#: inc/admin/theme_options/settings.php:7401
 msgid "Show social links in post and product, page, portfolio, etc."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7369
+#: inc/admin/theme_options/settings.php:7418
 msgid "Enable Facebook Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7378
+#: inc/admin/theme_options/settings.php:7427
 msgid "Enable Twitter Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7387
+#: inc/admin/theme_options/settings.php:7436
 msgid "Enable LinkedIn Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7396
+#: inc/admin/theme_options/settings.php:7445
 msgid "Enable Google + Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7405
+#: inc/admin/theme_options/settings.php:7454
 msgid "Enable Pinterest Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7414
+#: inc/admin/theme_options/settings.php:7463
 msgid "Enable Email Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7423
+#: inc/admin/theme_options/settings.php:7472
 msgid "Enable VK Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7432
+#: inc/admin/theme_options/settings.php:7481
 msgid "Enable Xing Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7441
+#: inc/admin/theme_options/settings.php:7490
 msgid "Enable Tumblr Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7450
+#: inc/admin/theme_options/settings.php:7499
 msgid "Enable Reddit Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7459
+#: inc/admin/theme_options/settings.php:7508
 msgid "Enable WhatsApp Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7472
+#: inc/admin/theme_options/settings.php:7521
 msgid "Slider Config"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7478
+#: inc/admin/theme_options/settings.php:7527
 msgid "Loop"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7486
+#: inc/admin/theme_options/settings.php:7535
 msgid "Auto Play"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7494
+#: inc/admin/theme_options/settings.php:7543
 msgid "Play Speed"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7496
+#: inc/admin/theme_options/settings.php:7545
 msgid "unit: millisecond"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7502
+#: inc/admin/theme_options/settings.php:7551
 msgid "Auto Height"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7510
+#: inc/admin/theme_options/settings.php:7559
 msgid "Show Next/Prev Buttons"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7518
+#: inc/admin/theme_options/settings.php:7567
 msgid "Show Next/Prev Buttons on Hover"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7527
+#: inc/admin/theme_options/settings.php:7576
 msgid "Enable Margin"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7536
+#: inc/admin/theme_options/settings.php:7585
 msgid "Show Dots Navigation"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7544
+#: inc/admin/theme_options/settings.php:7593
 msgid "Animate In"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7546
+#: inc/admin/theme_options/settings.php:7595
 msgid ""
 "Please input animation. Please reference <a href=\"http://daneden.github.io/"
 "animate.css/\">animate.css</a>. ex: fadeIn"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7551
+#: inc/admin/theme_options/settings.php:7600
 msgid "Animate Out"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7553
+#: inc/admin/theme_options/settings.php:7602
 msgid ""
 "Please input animation. Please reference <a href=\"http://daneden.github.io/"
 "animate.css/\">animate.css</a>. ex: fadeOut"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7569
+#: inc/admin/theme_options/settings.php:7618
 msgid "Live Option Panel"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7574
+#: inc/admin/theme_options/settings.php:7623
 msgid "Theme Version: "
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:7579
+#: inc/admin/theme_options/settings.php:7628
 msgid "Porto Advanced Options"
 msgstr ""
 
@@ -6880,52 +6945,52 @@ msgstr ""
 msgid "Comment on %s"
 msgstr ""
 
-#: inc/functions/layout.php:806 inc/functions/layout.php:877
-#: inc/functions/layout.php:1111 inc/functions/layout.php:1115
-#: inc/functions/layout.php:1440 inc/functions/layout.php:1721
-#: inc/functions/layout.php:1829
+#: inc/functions/layout.php:807 inc/functions/layout.php:878
+#: inc/functions/layout.php:1112 inc/functions/layout.php:1116
+#: inc/functions/layout.php:1441 inc/functions/layout.php:1722
+#: inc/functions/layout.php:1830
 msgid "Log out"
 msgstr ""
 
-#: inc/functions/layout.php:825 inc/functions/layout.php:896
-#: inc/functions/layout.php:1141 inc/functions/layout.php:1145
-#: inc/functions/layout.php:1459 inc/functions/layout.php:1740
-#: inc/functions/layout.php:1848
+#: inc/functions/layout.php:826 inc/functions/layout.php:897
+#: inc/functions/layout.php:1142 inc/functions/layout.php:1146
+#: inc/functions/layout.php:1460 inc/functions/layout.php:1741
+#: inc/functions/layout.php:1849
 msgid "Log In"
 msgstr ""
 
-#: inc/functions/layout.php:1946 inc/functions/layout.php:2011 searchform.php:6
+#: inc/functions/layout.php:1947 inc/functions/layout.php:2012 searchform.php:6
 #: woocommerce/yith-woocommerce-ajax-search.php:45
 msgid "Search"
 msgstr ""
 
-#: inc/functions/layout.php:1968
+#: inc/functions/layout.php:1969
 #: woocommerce/yith-woocommerce-ajax-search.php:26
 msgid "Search&hellip;"
 msgstr ""
 
-#: inc/functions/layout.php:1984
+#: inc/functions/layout.php:1985
 #: woocommerce/yith-woocommerce-ajax-search.php:30
 msgid "All Categories"
 msgstr ""
 
-#: inc/functions/layout.php:2181 inc/functions/woocommerce.php:341
+#: inc/functions/layout.php:2182 inc/functions/woocommerce.php:341
 #, php-format
 msgid "Cart %s"
 msgstr ""
 
-#: inc/functions/layout.php:2201 inc/functions/woocommerce.php:351
+#: inc/functions/layout.php:2202 inc/functions/woocommerce.php:351
 #, php-format
 msgid "%d item"
 msgstr ""
 
-#: inc/functions/layout.php:2213
+#: inc/functions/layout.php:2214
 msgid "WooCommerce is not installed."
 msgstr ""
 
-#: inc/functions/layout.php:2527 inc/functions/layout.php:2599
-#: inc/functions/layout.php:2666 inc/functions/layout.php:2732
-#: inc/functions/layout.php:2804
+#: inc/functions/layout.php:2528 inc/functions/layout.php:2600
+#: inc/functions/layout.php:2667 inc/functions/layout.php:2733
+#: inc/functions/layout.php:2805
 #, php-format
 msgid "%1$sFilter%2$s By"
 msgstr ""
@@ -7345,7 +7410,7 @@ msgid "Select the position of the tab header."
 msgstr ""
 
 #: inc/functions/shortcodes.php:1448 inc/functions/shortcodes.php:1757
-#: inc/functions/woocommerce.php:1269
+#: inc/functions/woocommerce.php:1294
 #: inc/lib/woocommerce-swatches/classes/class-product-swatches-tab.php:134
 msgid "Color"
 msgstr ""
@@ -7812,10 +7877,6 @@ msgstr ""
 msgid "Info"
 msgstr ""
 
-#: inc/functions/shortcodes.php:3058
-msgid "Warning"
-msgstr ""
-
 #: inc/functions/shortcodes.php:3059
 msgid "Danger"
 msgstr ""
@@ -8019,177 +8080,177 @@ msgid ""
 "Sorry, this product is unavailable. Please choose a different combination."
 msgstr ""
 
-#: inc/functions/woocommerce.php:785
+#: inc/functions/woocommerce.php:786
 msgid "Availability"
 msgstr ""
 
-#: inc/functions/woocommerce.php:972
+#: inc/functions/woocommerce.php:997
 msgid "First Name"
 msgstr ""
 
-#: inc/functions/woocommerce.php:976
+#: inc/functions/woocommerce.php:1001
 msgid "Last Name"
 msgstr ""
 
-#: inc/functions/woocommerce.php:997
+#: inc/functions/woocommerce.php:1022
 msgid "<strong>Error</strong>: First name is required!"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1000
+#: inc/functions/woocommerce.php:1025
 msgid "<strong>Error</strong>: Last name is required!."
 msgstr ""
 
-#: inc/functions/woocommerce.php:1038
+#: inc/functions/woocommerce.php:1063
 msgid "Passwords do not match."
 msgstr ""
 
-#: inc/functions/woocommerce.php:1111
+#: inc/functions/woocommerce.php:1136
 msgid "Phone Number"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1112
+#: inc/functions/woocommerce.php:1137
 msgid "Facebook Profile URL"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1113
+#: inc/functions/woocommerce.php:1138
 msgid "Google Plus Profil URL"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1114
+#: inc/functions/woocommerce.php:1139
 msgid "Twitter Profile URL"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1115
+#: inc/functions/woocommerce.php:1140
 msgid "Linkedin Profile URL"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1116
+#: inc/functions/woocommerce.php:1141
 msgid "Youtube Profile URL"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1117
+#: inc/functions/woocommerce.php:1142
 msgid "Flickr Profile URL"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1174
+#: inc/functions/woocommerce.php:1199
 msgid "Sold by : "
 msgstr ""
 
-#: inc/functions/woocommerce.php:1184
+#: inc/functions/woocommerce.php:1209
 msgid "Public Profile - Gallery"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1246
+#: inc/functions/woocommerce.php:1271
 msgid "More from this seller&hellip;"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1294
+#: inc/functions/woocommerce.php:1319
 msgid "Select terms"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1309
+#: inc/functions/woocommerce.php:1334
 msgid "Select all"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1310
+#: inc/functions/woocommerce.php:1335
 msgid "Select none"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1311
+#: inc/functions/woocommerce.php:1336
 msgid "Add new"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1329
+#: inc/functions/woocommerce.php:1354
 #: woocommerce/single-product/add-to-cart/variable.php:39
 msgid "Choose an option"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1347
+#: inc/functions/woocommerce.php:1372
 #, php-format
 msgid "Read More About %s"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1541
+#: inc/functions/woocommerce.php:1597
 msgid "Filters:"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1592
+#: inc/functions/woocommerce.php:1648
 msgid "Offer Ends In:"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1594 inc/functions/woocommerce.php:1596
+#: inc/functions/woocommerce.php:1650 inc/functions/woocommerce.php:1652
 msgid "Day"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1594 inc/functions/woocommerce.php:1596
+#: inc/functions/woocommerce.php:1650 inc/functions/woocommerce.php:1652
 msgid "Days"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1594
+#: inc/functions/woocommerce.php:1650
 msgid "Hour"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1594
+#: inc/functions/woocommerce.php:1650
 msgid "Hours"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1594
+#: inc/functions/woocommerce.php:1650
 msgid "Minute"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1594
+#: inc/functions/woocommerce.php:1650
 msgid "Minutes"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1594
+#: inc/functions/woocommerce.php:1650
 msgid "Second"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1594
+#: inc/functions/woocommerce.php:1650
 msgid "Seconds"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1659 inc/functions/woocommerce.php:1672
+#: inc/functions/woocommerce.php:1715 inc/functions/woocommerce.php:1728
 msgid "Error:"
 msgstr ""
 
-#: inc/functions/woocommerce.php:1675
+#: inc/functions/woocommerce.php:1731
 msgid "Username is required."
 msgstr ""
 
-#: inc/functions/woocommerce.php:1705
+#: inc/functions/woocommerce.php:1761
 msgid "Login successful, redirecting..."
 msgstr ""
 
-#: inc/functions/woocommerce.php:1715
+#: inc/functions/woocommerce.php:1771
 msgid "Wrong username or password."
 msgstr ""
 
-#: inc/functions/woocommerce.php:1774
+#: inc/functions/woocommerce.php:1830
 msgid "Register successful, redirecting..."
 msgstr ""
 
-#: inc/functions/woocommerce.php:1784
+#: inc/functions/woocommerce.php:1840
 msgid "Register failed."
 msgstr ""
 
-#: inc/functions/woocommerce.php:2026
+#: inc/functions/woocommerce.php:2082
 msgid "Out of stock"
 msgstr ""
 
-#: inc/functions/woocommerce.php:2026
+#: inc/functions/woocommerce.php:2082
 msgid "In stock"
 msgstr ""
 
-#: inc/functions/woocommerce.php:2029
+#: inc/functions/woocommerce.php:2085
 msgid "Add to cart"
 msgstr ""
 
-#: inc/functions/woocommerce.php:2042
+#: inc/functions/woocommerce.php:2098
 msgid "You've just added this product to the cart"
 msgstr ""
 
-#: inc/functions/woocommerce.php:2044
+#: inc/functions/woocommerce.php:2100
 msgid "Go to cart page"
 msgstr ""
 
@@ -8209,22 +8270,93 @@ msgstr ""
 msgid "Filter by Demos"
 msgstr ""
 
-#: inc/lib/porto-studio/blocks.tpl.php:52
+#: inc/lib/porto-studio/blocks.tpl.php:53
 msgid "Filters"
 msgstr ""
 
-#: inc/lib/porto-studio/blocks.tpl.php:59
+#: inc/lib/porto-studio/blocks.tpl.php:60
 #: inc/lib/woocommerce-swatches/classes/class-product-swatches-tab.php:160
 msgid "Preview"
 msgstr ""
 
-#: inc/lib/porto-studio/porto-studio.php:104
+#: inc/lib/porto-studio/porto-studio.php:129
 msgid "Security issue found! Please try again later."
 msgstr ""
 
-#: inc/lib/porto-studio/porto-studio.php:319
-#: inc/lib/porto-studio/porto-studio.php:333
+#: inc/lib/porto-studio/porto-studio.php:360
+#: inc/lib/porto-studio/porto-studio.php:381
 msgid "Could not connect to the API Server! Please try again later."
+msgstr ""
+
+#: inc/lib/woocommerce-pre-order/classes/class-porto-pre-order-admin.php:43
+#: inc/lib/woocommerce-pre-order/classes/class-porto-pre-order-admin.php:57
+msgid "Pre-Order"
+msgstr ""
+
+#: inc/lib/woocommerce-pre-order/classes/class-porto-pre-order-admin.php:44
+msgid "Check this option to set this product to the \"Pre-Order\" status."
+msgstr ""
+
+#: inc/lib/woocommerce-pre-order/classes/class-porto-pre-order-admin.php:58
+msgid "Check this option to set this variation to the \"Pre-Order\" status."
+msgstr ""
+
+#: inc/lib/woocommerce-pre-order/classes/class-porto-pre-order-admin.php:76
+msgid "Pre-Order Available Date"
+msgstr ""
+
+#: inc/lib/woocommerce-pre-order/classes/class-porto-pre-order-admin.php:127
+#: inc/lib/woocommerce-pre-order/classes/class-porto-pre-order-myaccount.php:42
+msgid "Pre-Orders"
+msgstr ""
+
+#: inc/lib/woocommerce-pre-order/classes/class-porto-pre-order-myaccount.php:32
+msgid "Has Pre-Order Item"
+msgstr ""
+
+#: inc/lib/woocommerce-pre-order/classes/class-porto-pre-order-myaccount.php:56
+#: woocommerce/cart/cart-v1.php:19 woocommerce/cart/cart-v2.php:27
+msgid "Product Name"
+msgstr ""
+
+#: inc/lib/woocommerce-pre-order/classes/class-porto-pre-order-myaccount.php:57
+#: woocommerce/cart/cart-totals-v1.php:20
+#: woocommerce/cart/cart-totals-v2.php:24 woocommerce/cart/cart-v1.php:22
+#: woocommerce/cart/cart-v1.php:103 woocommerce/cart/cart-v2.php:30
+#: woocommerce/cart/cart-v2.php:112 woocommerce/cart/mini-cart.php:118
+#: woocommerce/checkout/review-order.php:15
+#: woocommerce/checkout/review-order.php:47
+msgid "Subtotal"
+msgstr ""
+
+#: inc/lib/woocommerce-pre-order/classes/class-porto-pre-order-myaccount.php:58
+#: woocommerce/myaccount/my-orders.php:18
+msgid "Order"
+msgstr ""
+
+#: inc/lib/woocommerce-pre-order/classes/class-porto-pre-order-myaccount.php:110
+#: woocommerce/myaccount/my-orders.php:72 woocommerce/myaccount/orders.php:39
+msgid "#"
+msgstr ""
+
+#: inc/lib/woocommerce-pre-order/classes/class-porto-pre-order-view.php:45
+#: inc/lib/woocommerce-pre-order/classes/class-porto-pre-order-view.php:74
+msgid "Pre-Order Now"
+msgstr ""
+
+#: inc/lib/woocommerce-pre-order/classes/class-porto-pre-order-view.php:60
+#: inc/lib/woocommerce-pre-order/classes/class-porto-pre-order-view.php:132
+msgid "Pre-Ordered"
+msgstr ""
+
+#: inc/lib/woocommerce-pre-order/classes/class-porto-pre-order-view.php:106
+#, php-format
+msgid "Item %s is Pre-Ordered"
+msgstr ""
+
+#: inc/lib/woocommerce-pre-order/classes/class-porto-pre-order-view.php:141
+#, php-format
+msgid "Available Date: %s"
 msgstr ""
 
 #: inc/lib/woocommerce-swatches/classes/class-product-swatches-tab.php:135
@@ -8269,8 +8401,8 @@ msgstr ""
 #: inc/menu/menu.php:243
 #, php-format
 msgid ""
-"Input font awesome icon or icon class. You can see %1$sFont Awesome Icons in "
-"here%2$s. For example: fas fa-user"
+"Input icon class. You can see %1$sFont Awesome Icons in here%2$s. For "
+"example: fas fa-user"
 msgstr ""
 
 #: inc/plugins/importer/importer-api.php:166
@@ -8458,101 +8590,101 @@ msgid ""
 "current user."
 msgstr ""
 
-#: inc/plugins/importer/porto-wordpress-importer.php:670
+#: inc/plugins/importer/porto-wordpress-importer.php:672
 #: inc/plugins/importer/wordpress-importer.php:560
 #, php-format
 msgid "Failed to import category %s"
 msgstr ""
 
-#: inc/plugins/importer/porto-wordpress-importer.php:723
+#: inc/plugins/importer/porto-wordpress-importer.php:726
 #: inc/plugins/importer/wordpress-importer.php:613
 #, php-format
 msgid "Failed to import post tag %s"
 msgstr ""
 
-#: inc/plugins/importer/porto-wordpress-importer.php:809
-#: inc/plugins/importer/porto-wordpress-importer.php:1145
+#: inc/plugins/importer/porto-wordpress-importer.php:813
+#: inc/plugins/importer/porto-wordpress-importer.php:1152
 #: inc/plugins/importer/wordpress-importer.php:697
-#: inc/plugins/importer/wordpress-importer.php:1031
+#: inc/plugins/importer/wordpress-importer.php:1032
 #, php-format
 msgid "Failed to import %1$s %2$s"
 msgstr ""
 
-#: inc/plugins/importer/porto-wordpress-importer.php:910
+#: inc/plugins/importer/porto-wordpress-importer.php:914
 #: inc/plugins/importer/wordpress-importer.php:789
 #, php-format
 msgid "Failed to import &#8220;%1$s&#8221;: Invalid post type %2$s"
 msgstr ""
 
-#: inc/plugins/importer/porto-wordpress-importer.php:1003
-#: inc/plugins/importer/porto-wordpress-importer.php:1104
-#: inc/plugins/importer/wordpress-importer.php:889
-#: inc/plugins/importer/wordpress-importer.php:992
+#: inc/plugins/importer/porto-wordpress-importer.php:1008
+#: inc/plugins/importer/porto-wordpress-importer.php:1111
+#: inc/plugins/importer/wordpress-importer.php:890
+#: inc/plugins/importer/wordpress-importer.php:993
 #, php-format
 msgid "Failed to import %1$s &#8220;%2$s&#8221;"
 msgstr ""
 
-#: inc/plugins/importer/porto-wordpress-importer.php:1295
-#: inc/plugins/importer/wordpress-importer.php:1180
+#: inc/plugins/importer/porto-wordpress-importer.php:1306
+#: inc/plugins/importer/wordpress-importer.php:1186
 msgid "Menu item skipped due to missing menu slug"
 msgstr ""
 
-#: inc/plugins/importer/porto-wordpress-importer.php:1302
-#: inc/plugins/importer/wordpress-importer.php:1187
+#: inc/plugins/importer/porto-wordpress-importer.php:1313
+#: inc/plugins/importer/wordpress-importer.php:1193
 #, php-format
 msgid "Menu item skipped due to invalid menu slug: %s"
 msgstr ""
 
-#: inc/plugins/importer/porto-wordpress-importer.php:1396
-#: inc/plugins/importer/wordpress-importer.php:1281
+#: inc/plugins/importer/porto-wordpress-importer.php:1407
+#: inc/plugins/importer/wordpress-importer.php:1287
 msgid "Fetching attachments is not enabled"
 msgstr ""
 
-#: inc/plugins/importer/porto-wordpress-importer.php:1413
-#: inc/plugins/importer/wordpress-importer.php:1298
+#: inc/plugins/importer/porto-wordpress-importer.php:1424
+#: inc/plugins/importer/wordpress-importer.php:1304
 msgid "Invalid file type"
 msgstr ""
 
-#: inc/plugins/importer/porto-wordpress-importer.php:1475
-#: inc/plugins/importer/wordpress-importer.php:1361
+#: inc/plugins/importer/porto-wordpress-importer.php:1486
+#: inc/plugins/importer/wordpress-importer.php:1367
 msgid "Remote server did not respond"
 msgstr ""
 
-#: inc/plugins/importer/porto-wordpress-importer.php:1482
-#: inc/plugins/importer/wordpress-importer.php:1368
+#: inc/plugins/importer/porto-wordpress-importer.php:1493
+#: inc/plugins/importer/wordpress-importer.php:1374
 #, php-format
 msgid "Remote server returned error response %1$d %2$s"
 msgstr ""
 
-#: inc/plugins/importer/porto-wordpress-importer.php:1500
-#: inc/plugins/importer/wordpress-importer.php:1387
+#: inc/plugins/importer/porto-wordpress-importer.php:1511
+#: inc/plugins/importer/wordpress-importer.php:1393
 #, php-format
 msgid "Remote file is too large, limit is %s"
 msgstr ""
 
-#: inc/plugins/importer/porto-wordpress-importer.php:1617
-#: inc/plugins/importer/wordpress-importer.php:1494
+#: inc/plugins/importer/porto-wordpress-importer.php:1628
+#: inc/plugins/importer/wordpress-importer.php:1500
 msgid "Import WordPress"
 msgstr ""
 
-#: inc/plugins/importer/porto-wordpress-importer.php:1624
-#: inc/plugins/importer/wordpress-importer.php:1502
+#: inc/plugins/importer/porto-wordpress-importer.php:1635
+#: inc/plugins/importer/wordpress-importer.php:1508
 #, php-format
 msgid ""
 "A new version of this importer is available. Please update to version %s to "
 "ensure compatibility with newer export files."
 msgstr ""
 
-#: inc/plugins/importer/porto-wordpress-importer.php:1639
-#: inc/plugins/importer/wordpress-importer.php:1517
+#: inc/plugins/importer/porto-wordpress-importer.php:1650
+#: inc/plugins/importer/wordpress-importer.php:1523
 msgid ""
 "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
 "the posts, pages, comments, custom fields, categories, and tags into this "
 "site."
 msgstr ""
 
-#: inc/plugins/importer/porto-wordpress-importer.php:1640
-#: inc/plugins/importer/wordpress-importer.php:1518
+#: inc/plugins/importer/porto-wordpress-importer.php:1651
+#: inc/plugins/importer/wordpress-importer.php:1524
 msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
 msgstr ""
 
@@ -8580,29 +8712,29 @@ msgstr ""
 msgid "%1$s &#8220;%2$s&#8221; already exists."
 msgstr ""
 
-#: inc/plugins/plugins.php:203
+#: inc/plugins/plugins.php:210
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:334
 msgid "Install Required Plugins"
 msgstr ""
 
-#: inc/plugins/plugins.php:206
+#: inc/plugins/plugins.php:213
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:337
 #, php-format
 msgid "Installing Plugin: %s"
 msgstr ""
 
-#: inc/plugins/plugins.php:207
+#: inc/plugins/plugins.php:214
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:340
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
-#: inc/plugins/plugins.php:209
+#: inc/plugins/plugins.php:216
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:343
 #, php-format
 msgid "This theme requires the following plugin: %1$s."
 msgstr ""
 
-#: inc/plugins/plugins.php:212
+#: inc/plugins/plugins.php:219
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to install the %s plugin. "
@@ -8610,13 +8742,13 @@ msgid ""
 "installed."
 msgstr ""
 
-#: inc/plugins/plugins.php:214
+#: inc/plugins/plugins.php:221
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:367
 #, php-format
 msgid "The following required plugin is currently inactive: %1$s."
 msgstr ""
 
-#: inc/plugins/plugins.php:217
+#: inc/plugins/plugins.php:224
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to activate the %s "
@@ -8624,7 +8756,7 @@ msgid ""
 "plugin activated."
 msgstr ""
 
-#: inc/plugins/plugins.php:219
+#: inc/plugins/plugins.php:226
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:355
 #, php-format
 msgid ""
@@ -8632,7 +8764,7 @@ msgid ""
 "maximum compatibility with this theme: %1$s."
 msgstr ""
 
-#: inc/plugins/plugins.php:221
+#: inc/plugins/plugins.php:228
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to update the %s plugin. "
@@ -8640,27 +8772,27 @@ msgid ""
 "updated."
 msgstr ""
 
-#: inc/plugins/plugins.php:222
+#: inc/plugins/plugins.php:229
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:378
 msgid "Begin installing plugin"
 msgstr ""
 
-#: inc/plugins/plugins.php:223
+#: inc/plugins/plugins.php:230
 msgid "Activate installed plugin"
 msgstr ""
 
-#: inc/plugins/plugins.php:224
+#: inc/plugins/plugins.php:231
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:392
 msgid "Return to Required Plugins Installer"
 msgstr ""
 
-#: inc/plugins/plugins.php:225
+#: inc/plugins/plugins.php:232
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:394
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3314
 msgid "Plugin activated successfully."
 msgstr ""
 
-#: inc/plugins/plugins.php:227
+#: inc/plugins/plugins.php:234
 #, php-format
 msgid "All plugins installed and activated successfully. %s"
 msgstr ""
@@ -9103,15 +9235,6 @@ msgstr ""
 msgid "Cart totals"
 msgstr ""
 
-#: woocommerce/cart/cart-totals-v1.php:20
-#: woocommerce/cart/cart-totals-v2.php:24 woocommerce/cart/cart-v1.php:22
-#: woocommerce/cart/cart-v1.php:103 woocommerce/cart/cart-v2.php:30
-#: woocommerce/cart/cart-v2.php:112 woocommerce/cart/mini-cart.php:118
-#: woocommerce/checkout/review-order.php:15
-#: woocommerce/checkout/review-order.php:47
-msgid "Subtotal"
-msgstr ""
-
 #: woocommerce/cart/cart-totals-v1.php:38
 msgid "Shipping"
 msgstr ""
@@ -9156,13 +9279,7 @@ msgstr ""
 msgid "Proceed to checkout"
 msgstr ""
 
-#: woocommerce/cart/cart-v1.php:19 woocommerce/cart/cart-v2.php:27
-#: woocommerce/wishlist-view.php:59
-msgid "Product Name"
-msgstr ""
-
 #: woocommerce/cart/cart-v1.php:20 woocommerce/cart/cart-v2.php:28
-#: woocommerce/wishlist-view.php:65
 msgid "Unit Price"
 msgstr ""
 
@@ -9243,7 +9360,7 @@ msgid "Calculate shipping"
 msgstr ""
 
 #: woocommerce/cart/shipping-calculator.php:28
-msgid "Select a country&hellip;"
+msgid "Select a country / region&hellip;"
 msgstr ""
 
 #: woocommerce/cart/shipping-calculator.php:47
@@ -9628,16 +9745,8 @@ msgstr ""
 msgid "%s download remaining"
 msgstr ""
 
-#: woocommerce/myaccount/my-orders.php:18
-msgid "Order"
-msgstr ""
-
 #: woocommerce/myaccount/my-orders.php:44
 msgid "Recent Orders"
-msgstr ""
-
-#: woocommerce/myaccount/my-orders.php:72 woocommerce/myaccount/orders.php:39
-msgid "#"
 msgstr ""
 
 #: woocommerce/myaccount/my-orders.php:80 woocommerce/myaccount/orders.php:51
@@ -9873,38 +9982,6 @@ msgstr ""
 
 #: woocommerce/single-product/up-sells.php:45
 msgid "You may also like&hellip;"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:25
-msgid "Edit title"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:73
-msgid "Stock Status"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:111
-msgid "Remove this product"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:138
-msgid "Free!"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:149
-msgid "Out of Stock"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:152
-msgid "In Stock"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:199
-msgid "No products were added to the wishlist"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:227
-msgid "Ask for an estimate"
 msgstr ""
 
 #: woocommerce/yit-pointers.php:74

@@ -38,6 +38,7 @@ extract(
 			'animation_type'         => '',
 			'animation_duration'     => 1000,
 			'animation_delay'        => 0,
+			'align'                  => '',
 		),
 		$atts
 	)
@@ -202,6 +203,9 @@ if ( trim( $css_ib_styles ) ) {
 if ( trim( $el_class ) ) {
 	$classes .= ' ' . trim( $el_class );
 }
+if ( $align ) {
+	$classes .= ' align' . $align;
+}
 
 // lazy load background image
 if ( isset( $porto_settings_optimize['lazyload'] ) && $porto_settings_optimize['lazyload'] ) {
@@ -215,6 +219,7 @@ if ( isset( $porto_settings_optimize['lazyload'] ) && $porto_settings_optimize['
 
 // parallax
 if ( $parallax && $banner_image ) {
+	wp_enqueue_script( 'skrollr' );
 	if ( is_numeric( $banner_image ) ) {
 		$image_url = wp_get_attachment_image_url( $banner_image, 'full' );
 	} else {
@@ -244,11 +249,11 @@ if ( $img ) {
 	$output .= $img;
 }
 if ( $banner_title || $banner_desc || $content ) {
-	$output .= '<div class="porto-ibanner-desc' . ( $content && false !== strpos( $content, '[porto_interactive_banner_layer ' ) ? ' no-padding d-flex' : '' ) . '"' . ( $title_bg ? ' style="' . esc_attr( $title_bg ) . '"' : '' ) . '>';
+	$output .= '<div class="porto-ibanner-desc' . ( $content && ( false !== strpos( $content, '[porto_interactive_banner_layer ' ) || false !== strpos( $content, 'class="porto-ibanner-layer' ) ) ? ' no-padding d-flex' : '' ) . '"' . ( $title_bg ? ' style="' . esc_attr( $title_bg ) . '"' : '' ) . '>';
 	if ( $banner_title ) {
 		$output .= '<' . $heading_tag . ' class="porto-ibanner-title" style="' . esc_attr( $banner_title_style_inline ) . '">' . do_shortcode( $banner_title ) . '</' . $heading_tag . '>';
 	}
-	if ( $content && false !== strpos( $content, '[porto_interactive_banner_layer ' ) ) {
+	if ( $content && ( false !== strpos( $content, '[porto_interactive_banner_layer ' ) || false !== strpos( $content, 'class="porto-ibanner-layer' ) ) ) {
 		if ( $add_container ) {
 			$output .= '<div class="container"><div class="porto-ibanner-container">';
 		}

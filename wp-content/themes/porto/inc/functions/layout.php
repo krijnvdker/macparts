@@ -108,6 +108,7 @@ function porto_banner( $banner_class = '' ) {
 		foreach ( $post_types as $post_type ) {
 			if ( is_singular( $post_type ) ) {
 				if ( $portfolio_single_banner_image ) {
+					wp_enqueue_script( 'skrollr' );
 					?>
 					<div class="banner-container">
 						<section class="portfolio-parallax parallax section section-text-light section-parallax hidden-plus m-none image-height" data-plugin-parallax data-plugin-options='{"speed": 1.5}' data-image-src="<?php echo wp_get_attachment_url( $portfolio_single_banner_image ); ?>">
